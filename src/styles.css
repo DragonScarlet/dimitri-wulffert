@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+body {
+  margin: 0 auto;
+
+  /* to be synced with body<->header<->footer style */
+  min-width: 300px;
+  /*width: 800px;*/
+  max-width: 900px;
+
+  padding-bottom: 88px;
+  padding-top: 88px;
+}
