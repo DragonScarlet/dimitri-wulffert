@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "@angular/material/prebuilt-themes/pink-bluegrey.css";
+/*@import "@angular/material/prebuilt-themes/deeppurple-amber.css";*/
+/*@import "@angular/material/prebuilt-themes/purple-green.css";*/
+/*@import "@angular/material/prebuilt-themes/indigo-pink.css";*/
 
 body {
   margin: 0 auto;
@@ -10,5 +13,4 @@ body {
   max-width: 900px;
 
   padding-bottom: 88px;
-  padding-top: 88px;
 }

@@ -14,6 +14,22 @@ import {MatTabsModule} from "@angular/material/tabs";
 import { ProfileComponent } from './profile/profile.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { LanguageComponent } from './language/language.component';
+import {MatExpansionModule} from "@angular/material/expansion";
+import {CdkAccordionModule} from "@angular/cdk/accordion";
+import {MatIconModule} from "@angular/material/icon";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import { HobbiesComponent } from './hobbies/hobbies.component';
+import {MatGridListModule} from "@angular/material/grid-list";
+import { SkillsComponent } from './skills/skills.component';
+import {MatChipsModule} from "@angular/material/chips";
+import {MatDividerModule} from "@angular/material/divider";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import { ChipComponent } from './shared/chip/chip.component';
+import { ImagePipe } from './shared/pipes/image.pipe';
+import { CertificatesComponent } from './certificates/certificates.component';
+import {MatTooltipModule} from "@angular/material/tooltip";
+import { AboutComponent } from './about/about.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +37,14 @@ import { LanguageComponent } from './language/language.component';
     HeaderComponent,
     ProfileComponent,
     ExperienceComponent,
-    LanguageComponent
+    LanguageComponent,
+    HobbiesComponent,
+    SkillsComponent,
+    ChipComponent,
+    ImagePipe,
+    CertificatesComponent,
+    AboutComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +55,16 @@ import { LanguageComponent } from './language/language.component';
     MatButtonModule,
     MatCardModule,
     MatSliderModule,
-    MatTabsModule
+    MatTabsModule,
+    MatExpansionModule,
+    CdkAccordionModule,
+    MatIconModule,
+    MatProgressSpinnerModule,
+    MatGridListModule,
+    MatChipsModule,
+    MatDividerModule,
+    MatProgressBarModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

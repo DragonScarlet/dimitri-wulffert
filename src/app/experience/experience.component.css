@@ -1,0 +1,60 @@
+.example-action-buttons {
+  padding-bottom: 20px;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.custom-icon {
+  vertical-align: middle;
+}
+
+
+.bbv-image {
+  background-image: url('/assets/companies/bbv.png');
+  background-size: cover;
+}
+
+
+.msg-image {
+  background-image: url('/assets/companies/msg.png');
+  background-size: cover;
+}
+
+.aequitas-image {
+  background-image: url('/assets/companies/aequitas.png');
+  background-size: cover;
+}
+
+.mvi-image {
+  background-image: url('/assets/companies/mvi.png');
+  background-size: cover;
+}
+
+
+.custom-icon {
+  vertical-align: middle;
+}
+
+.text-inside-grid {
+  position: absolute;
+  left: 5px;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(28deg) brightness(101%) contrast(101%);
+}

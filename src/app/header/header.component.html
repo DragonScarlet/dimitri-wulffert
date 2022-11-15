@@ -1,8 +1,16 @@
-<nav mat-tab-nav-bar [backgroundColor]="background" [tabPanel]="tabPanel">
-  <a mat-tab-link *ngFor="let link of links"
+<!--<mat-card class="example-card">-->
+<!--  <mat-card-header>-->
+<!--    <div mat-card-avatar class="example-header-image"></div>-->
+<!--    <mat-card-title>Dimitri Wulffert</mat-card-title>-->
+<!--    <mat-card-subtitle>Senior IT Consultant</mat-card-subtitle>-->
+<!--  </mat-card-header>-->
+<!--</mat-card>-->
+
+<nav mat-tab-nav-bar [backgroundColor]="background" mat-align-tabs="center">
+  <a mat-tab-link *ngFor="let link of links; index as i"
      [routerLink]="link"
-     (click)="activeLink = link"
-     [active]="activeLink == link"> {{link}} </a>
-  <a mat-tab-link disabled>Disabled Link</a>
+     #RouterLinkActive="routerLinkActive"
+     routerLinkActive
+     [active]="RouterLinkActive.isActive"> {{links[i]}} </a>
 </nav>
-<mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+<br>

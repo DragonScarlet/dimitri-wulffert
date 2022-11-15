@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ThemePalette} from "@angular/material/core";
 import {Router} from "@angular/router";
+import {Location} from "@angular/common";
+
 
 @Component({
   selector: 'app-header',
@@ -9,14 +11,16 @@ import {Router} from "@angular/router";
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  links = ['Profile', 'Skills', 'Experience', 'Certificates'];
+  background: ThemePalette = undefined;
+
+  constructor(private router: Router, private location: Location) {
+  }
+
 
   ngOnInit(): void {
   }
 
-  links = ['Profile', 'Experience', 'Language'];
-  activeLink = this.links[0];
-  background: ThemePalette = undefined;
 
   toggleBackground() {
     this.background = this.background ? undefined : 'primary';
@@ -26,7 +30,7 @@ export class HeaderComponent implements OnInit {
     this.links.push(`Link ${this.links.length + 1}`);
   }
 
-  navTo(link : string){
+  navTo(link: string) {
     this.router.navigate([link]);
   }
 

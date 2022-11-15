@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<mat-accordion class="example-headers-align" multi>
+  <mat-expansion-panel [expanded]="true" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Studies and Work
+      </mat-panel-title>
+      <mat-panel-description>
+        <p></p><span class="material-symbols-outlined custom-icon">School</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-card-content>
+      <mat-chip-list aria-label="Education">
+        <mat-chip color="primary" selected>
+          <img matChipAvatar src="assets/companies/bbv.png" alt="TUD"/>
+          Professional Consultant
+        </mat-chip>
+        <mat-chip  color="warn" selected>
+          <img matChipAvatar src="assets/companies/msg4.jpg" alt="MSG"/>
+          Senior IT Consultant
+        </mat-chip>
+        <mat-chip>
+          <img matChipAvatar src="assets/companies/aequitas.png" alt="AE"/>
+          Senior IT Consultant
+        </mat-chip>
+        <mat-chip>
+          <img matChipAvatar src="assets/companies/mvi3.jpg" alt="MVI"/>
+          IT Consultant
+        </mat-chip>
+        <mat-chip color="primary" selected>
+          <img matChipAvatar src="assets/companies/tud.svg" alt="TUD"  style="background-color: white;"/>
+          Master of Science
+        </mat-chip>
+        <mat-chip color="warn" selected>
+          <img matChipAvatar src="assets/companies/tud.svg" alt="TUD"  style="background-color: white;"/>
+          Bachelor of Science
+        </mat-chip>
+        <mat-chip color="accent">
+          <img matChipAvatar src="assets/companies/nagaoka.png" alt="NUT" style="background-color: white;"/>
+          Internation Exchange
+        </mat-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-expansion-panel>
+</mat-accordion>

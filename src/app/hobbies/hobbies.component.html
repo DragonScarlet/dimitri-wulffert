@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<mat-accordion class="example-headers-align" multi>
+  <mat-expansion-panel [expanded]="true" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Hobbies
+      </mat-panel-title>
+      <mat-panel-description>
+        <p></p>
+        <span class="material-symbols-outlined custom-icon">hiking</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-card-content>
+      <mat-chip-list aria-label="Hobbies">
+        <app-chip iconName="hiking" text="Hiking" color="green"></app-chip>
+        <app-chip iconName="plane" text="Travel" color="blue"></app-chip>
+        <app-chip iconName="basketball" text="Basketball" color=""></app-chip>
+        <app-chip iconName="car" text="Driving" color="yellow"></app-chip>
+        <app-chip iconName="dragon" text="Anime" color="red"></app-chip>
+        <app-chip iconName="mountain" text="Japanese Culture" color="green"></app-chip>
+        <app-chip iconName="gamepad" text="Computer Games" color="purple"></app-chip>
+        <app-chip iconName="book" text="Manga" color="orange"></app-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-expansion-panel>
+</mat-accordion>

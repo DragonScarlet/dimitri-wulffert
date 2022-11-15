@@ -1,1 +1,41 @@
-<p>language works!</p>
+<mat-accordion class="example-headers-align" multi>
+  <mat-expansion-panel [expanded]="true" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Languages
+      </mat-panel-title>
+      <mat-panel-description>
+        <p></p>
+        <span class="material-symbols-outlined custom-icon">language</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <mat-card-content>
+      <br>
+      <span>
+      <img [src]=" 'CO' | image" style="height: 20px"> Spanish
+    </span>
+      <mat-progress-bar mode="determinate" mode="determinate" [value]="highValue"></mat-progress-bar>
+      <br>
+      <span>
+      <img [src]=" 'DE' | image" style="height: 20px"> German
+    </span>
+      <mat-progress-bar mode="determinate" [value]="normalValue"></mat-progress-bar>
+      <br>
+      <span>
+      <img [src]=" 'US' | image" style="height: 20px"> English
+    </span>
+      <mat-progress-bar mode="determinate" [value]="normalValue"></mat-progress-bar>
+      <br>
+      <span>
+      <img [src]=" 'JP' | image" style="height: 20px"> Japanese
+    </span>
+      <mat-progress-bar mode="determinate" [value]="lowValue"></mat-progress-bar>
+      <br>
+      <span>
+      <img [src]=" 'CN' | image" style="height: 20px"> Chinese
+    </span>
+      <mat-progress-bar mode="determinate" [value]="veryLowValue"></mat-progress-bar>
+    </mat-card-content>
+  </mat-expansion-panel>
+</mat-accordion>
