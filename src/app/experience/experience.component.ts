@@ -1,5 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {MatAccordion} from "@angular/material/expansion";
+import {ExperienceService} from "./experience.service";
 
 @Component({
   selector: 'app-experience',
@@ -7,12 +8,15 @@ import {MatAccordion} from "@angular/material/expansion";
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  panelOpenState = false;
   @ViewChild(MatAccordion) accordion: MatAccordion;
 
-  constructor() { }
+  constructor(private experienceService: ExperienceService) { }
 
   ngOnInit(): void {
+  }
+
+  jobs() {
+    return this.experienceService.getJobs();
   }
 
 }

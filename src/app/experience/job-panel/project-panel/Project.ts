@@ -1,9 +1,6 @@
-import {Input} from "@angular/core";
+export class Project {
 
-
-export class Project{
-
-  constructor(public name: string, public  time: string, public description: string) {
+  constructor(public name: string, public time: string, public description: string) {
   }
 
 }
