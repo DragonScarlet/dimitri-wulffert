@@ -2,42 +2,42 @@ import {Injectable} from '@angular/core';
 import {Skill} from "./skill";
 
 // Programing Languages
-const JAVA = new Skill('Java', 'java', 'red');
-const PYTHON = new Skill('Python', 'python', 'yellow');
-const JAVASCRIPT = new Skill('JavaScript', 'javascript', 'yellow');
-const TYPESCRIPT = new Skill('TypeScript', 'javascript', 'blue');
-const HTML = new Skill('HTML', 'html', 'green');
-const CSS = new Skill('css', 'html', 'green');
+export const JAVA = new Skill('Java', 'java', 'red');
+export const PYTHON = new Skill('Python', 'python', 'yellow');
+export const JAVASCRIPT = new Skill('JavaScript', 'javascript', 'yellow');
+export const TYPESCRIPT = new Skill('TypeScript', 'javascript', 'blue');
+export const HTML = new Skill('HTML', 'html', 'green');
+export const CSS = new Skill('css', 'html', 'green');
 
 // FrameWorks
-const ANGULAR = new Skill('Angular', 'angular', 'red');
-const ANGULARJS = new Skill('AngularJs', 'angular', 'red');
-const PRIMEFACES = new Skill('Primefaces', 'robot', 'blue');
-const SPRING = new Skill('Spring', 'leaf', 'green');
-const HIBERNATE = new Skill('Hibernate', 'db', 'purple');
-const DOCKER = new Skill('Docker', 'docker', 'blue');
-const KUBERNETES = new Skill('Kubernetes', 'kubernetes', 'blue');
-const MOCKITO = new Skill('Mockito', 'mockito', 'purple');
-const CUCUMBER = new Skill('Cucumber', 'cucumber', 'green');
-const JUNIT = new Skill('JUnit', 'junit', 'blue');
+export const ANGULAR = new Skill('Angular', 'angular', 'red');
+export const ANGULARJS = new Skill('AngularJs', 'angular', 'red');
+export const PRIMEFACES = new Skill('Primefaces', 'robot', 'blue');
+export const SPRING = new Skill('Spring', 'leaf', 'green');
+export const HIBERNATE = new Skill('Hibernate', 'db', 'purple');
+export const DOCKER = new Skill('Docker', 'docker', 'blue');
+export const KUBERNETES = new Skill('Kubernetes', 'kubernetes', 'blue');
+export const MOCKITO = new Skill('Mockito', 'mockito', 'purple');
+export const CUCUMBER = new Skill('Cucumber', 'cucumber', 'green');
+export const JUNIT = new Skill('JUnit', 'junit', 'blue');
 
 // DataBases
-const SQL = new Skill('SQL', 'db', 'purple');
-const POSTGRES = new Skill('Postgres', 'db', 'blue');
-const ORACLE = new Skill('ORACLE', 'db', 'red');
-const MYSQL = new Skill('MySQL', 'db', 'blue');
-const MONGO = new Skill('Mongo', 'db', 'yellow');
-const DB2 = new Skill('DB2', 'db', 'red');
+export const SQL = new Skill('SQL', 'db', 'purple');
+export const POSTGRES = new Skill('Postgres', 'db', 'blue');
+export const ORACLE = new Skill('ORACLE', 'db', 'red');
+export const MYSQL = new Skill('MySQL', 'db', 'blue');
+export const MONGO = new Skill('Mongo', 'db', 'yellow');
+export const DB2 = new Skill('DB2', 'db', 'red');
 
 // Tools
-const GITKRAKEN = new Skill('GitKraken', 'gitkraken', 'green');
-const SOURCETREE = new Skill('SourceTree', 'jira', 'blue');
-const BITBUCKET = new Skill('BitBucket', 'jira', 'blue');
-const CONFLUENCE = new Skill('Confluence', 'jira', 'blue');
-const JIRA = new Skill('Jira', 'jira', 'blue');
-const INTELLIJ = new Skill('IntelliJ', 'jet', 'purple');
-const JENKINS = new Skill('Jenkins', 'jenkins', 'red');
-const SONARCUBE = new Skill('SonarCube', 'cube', 'purple');
+export const GITKRAKEN = new Skill('GitKraken', 'gitkraken', 'green');
+export const SOURCETREE = new Skill('SourceTree', 'jira', 'blue');
+export const BITBUCKET = new Skill('BitBucket', 'jira', 'blue');
+export const CONFLUENCE = new Skill('Confluence', 'jira', 'blue');
+export const JIRA = new Skill('Jira', 'jira', 'blue');
+export const INTELLIJ = new Skill('IntelliJ', 'jet', 'purple');
+export const JENKINS = new Skill('Jenkins', 'jenkins', 'red');
+export const SONARCUBE = new Skill('SonarCube', 'cube', 'purple');
 
 @Injectable({
   providedIn: 'root'

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Job} from "./job-panel/Job";
 import {Project} from "./job-panel/project-panel/Project";
+import {JAVA, SkillsService} from "../shared/skills.service";
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,12 @@ export class ExperienceService {
       'assets/companies/msg2.png',
       '2020.07 - 2022.09',
       [
-        new Project('Component Architect', '2 years', 'Worked as a Component Architect for insurance software company. Ensuring software follows the company technical requirements.'),
+        new Project(
+          'Component Architect',
+          '2 years',
+          'Worked as a Component Architect for insurance software company. Ensuring software follows the company technical requirements.',
+        [JAVA]
+        ),
       ]
     ),
     new Job('Senior IT Consultant',
@@ -28,7 +34,7 @@ export class ExperienceService {
       'assets/companies/aequitas2.png',
       '2018.10 - 2020.06',
       [
-        new Project('Frontend-Backend', '2 years', 'Developed and maintained insurance software using Java,SF, Springboot, SQL, SOAP, xHTML, JIRA and Jenkins.'),
+        new Project('Frontend-Backend', '2 years', 'Developed and maintained insurance software using Java,SF, Springboot, SQL, SOAP, xHTML, JIRA and Jenkins.', [JAVA]),
       ]
     ),
     new Job('IT Consultant',
@@ -36,9 +42,9 @@ export class ExperienceService {
       'assets/companies/mvi2.png',
       '2015.09 - 2018.09',
       [
-        new Project('Frontend-Backend', '1/2 year', 'Finished developing a JSF application.'),
-        new Project('Frontend-Backend', '2 years', 'Responsible for developing front and backend web applications using AngularJS, JQuery, HTML, CSS, SQL and Java.'),
-        new Project('Tester', '1 year', 'Developed automatic and manual tests for VW Car-Net Japan using HP UFT and ALM.'),
+        new Project('Frontend-Backend', '1/2 year', 'Finished developing a JSF application.',[JAVA]),
+        new Project('Frontend-Backend', '2 years', 'Responsible for developing front and backend web applications using AngularJS, JQuery, HTML, CSS, SQL and Java.',[JAVA]),
+        new Project('Tester', '1 year', 'Developed automatic and manual tests for VW Car-Net Japan using HP UFT and ALM.',[]),
       ]
     ),
     new Job('Research Assistant',
@@ -46,7 +52,7 @@ export class ExperienceService {
       'assets/companies/tud.svg',
       '2013.09 - 2015.08',
       [
-        new Project('Research Assistant', '2 year', 'Ported computer serious games to android using C#. Analyzed and represented data using IPython notebook.')
+        new Project('Research Assistant', '2 year', 'Ported computer serious games to android using C#. Analyzed and represented data using IPython notebook.',[])
       ]
     ),
     new Job('Researcher',
@@ -54,7 +60,7 @@ export class ExperienceService {
       'assets/companies/nagaoka.png',
       '2012.09 - 2013.08',
       [
-      new Project('Research Assistant', '1 year', 'Developed two applications using Electromyography (EMG) sensors with unity and C++.')
+      new Project('Research Assistant', '1 year', 'Developed two applications using Electromyography (EMG) sensors with unity and C++.',[])
     ]
     ),
   ];
