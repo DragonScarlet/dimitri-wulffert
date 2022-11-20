@@ -8,7 +8,7 @@
 }
 
 .red {
-  filter: invert(15%) sepia(83%) saturate(6208%) hue-rotate(1deg) brightness(103%) contrast(124%);
+  filter: invert(75%) sepia(93%) saturate(2393%) hue-rotate(8deg) brightness(109%) contrast(95%);
 }
 
 
@@ -18,7 +18,7 @@
 
 
 .yellow {
-  filter: invert(75%) sepia(93%) saturate(2393%) hue-rotate(8deg) brightness(109%) contrast(95%);
+  filter: invert(15%) sepia(83%) saturate(6208%) hue-rotate(1deg) brightness(103%) contrast(124%);
 }
 
 .orange {

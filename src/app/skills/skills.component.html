@@ -18,15 +18,9 @@
         <span class="material-symbols-outlined custom-icon">code_blocks</span>
       </mat-panel-description>
     </mat-expansion-panel-header>
-
     <mat-card-content>
       <mat-chip-list aria-label="ProgrammingLanguages">
-        <app-chip iconName="java" text="Java" color="red"></app-chip>
-        <app-chip iconName="python" text="Python" color="yellow"></app-chip>
-        <app-chip iconName="javascript" text="JavaScript" color="yellow"></app-chip>
-        <app-chip iconName="javascript" text="TypeScript" color="blue"></app-chip>
-        <app-chip iconName="html" text="HTML" color="green"></app-chip>
-        <app-chip iconName="html" text="css" color="green"></app-chip>
+        <app-chip *ngFor="let lan of programingLanguages()" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
       </mat-chip-list>
     </mat-card-content>
   </mat-expansion-panel>
@@ -47,16 +41,7 @@
 
     <mat-card-content>
       <mat-chip-list aria-label="FrameWorks">
-        <app-chip iconName="angular" text="Angular" color="red"></app-chip>
-        <app-chip iconName="angular" text="AngularJs" color="red"></app-chip>
-        <app-chip iconName="robot" text="Primefaces" color="blue"></app-chip>
-        <app-chip iconName="leaf" text="Spring" color="green"></app-chip>
-        <app-chip iconName="db" text="Hibernate" color="purple"></app-chip>
-        <app-chip iconName="docker" text="Docker" color="blue"></app-chip>
-        <app-chip iconName="kubernetes" text="Kubernetes" color="blue"></app-chip>
-        <app-chip iconName="mockito" text="Mockito" color="purple"></app-chip>
-        <app-chip iconName="cucumber" text="Cucumber" color="green"></app-chip>
-        <app-chip iconName="junit" text="JUnit" color="blue"></app-chip>
+        <app-chip *ngFor="let lan of frameWorks()" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
       </mat-chip-list>
     </mat-card-content>
   </mat-expansion-panel>
@@ -77,13 +62,8 @@
     </mat-expansion-panel-header>
 
     <mat-card-content>
-      <mat-chip-list aria-label="FrameWorks">
-        <app-chip iconName="db" text="SQL" color="purple"></app-chip>
-        <app-chip iconName="db" text="Postgres" color="blue"></app-chip>
-        <app-chip iconName="db" text="DB2" color="red"></app-chip>
-        <app-chip iconName="db" text="ORACLE" color="red"></app-chip>
-        <app-chip iconName="db" text="MySQL" color="blue"></app-chip>
-        <app-chip iconName="db" text="Mongo" color="yellow"></app-chip>
+      <mat-chip-list aria-label="DataBases">
+        <app-chip *ngFor="let lan of dataBases()" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
       </mat-chip-list>
     </mat-card-content>
   </mat-expansion-panel>
@@ -104,15 +84,8 @@
     </mat-expansion-panel-header>
 
     <mat-card-content>
-      <mat-chip-list aria-label="FrameWorks">
-        <app-chip iconName="gitkraken" text="GitKraken" color="green"></app-chip>
-        <app-chip iconName="jira" text="SourceTree" color="blue"></app-chip>
-        <app-chip iconName="jira" text="BitBucket" color="blue"></app-chip>
-        <app-chip iconName="jira" text="Confluence" color="blue"></app-chip>
-        <app-chip iconName="jira" text="Jira" color="blue"></app-chip>
-        <app-chip iconName="jet" text="IntelliJ" color="purple"></app-chip>
-        <app-chip iconName="jenkins" text="Jenkins" color="red"></app-chip>
-        <app-chip iconName="cube" text="SonarCube" color="purple"></app-chip>
+      <mat-chip-list aria-label="Tools">
+        <app-chip *ngFor="let lan of tools()" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
       </mat-chip-list>
     </mat-card-content>
   </mat-expansion-panel>

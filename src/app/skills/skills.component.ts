@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {DomSanitizer} from "@angular/platform-browser";
 import {MatIconRegistry} from "@angular/material/icon";
+import {SkillsService} from "../shared/skills.service";
 
 
 @Component({
@@ -10,9 +11,25 @@ import {MatIconRegistry} from "@angular/material/icon";
 })
 export class SkillsComponent implements OnInit {
 
-
+  constructor(private skillService: SkillsService) {
+  }
 
   ngOnInit(): void {
   }
 
+  programingLanguages() {
+    return this.skillService.getProgramingLanguages();
+  }
+
+  frameWorks() {
+    return this.skillService.getFrameworks();
+  }
+
+  dataBases() {
+    return this.skillService.getDataBases();
+  }
+
+  tools() {
+    return this.skillService.getTools();
+  }
 }
