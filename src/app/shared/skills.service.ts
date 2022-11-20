@@ -5,6 +5,7 @@ import {Skill} from "./skill";
   providedIn: 'root'
 })
 export class SkillsService {
+
   programingLanguages = [
     new Skill('Java', 'java', 'red'),
     new Skill('Python', 'python', 'yellow'),
@@ -62,5 +63,9 @@ export class SkillsService {
 
   getTools() {
     return this.tools;
+  }
+
+  getAllSkills(){
+    return [];
   }
 }

@@ -30,6 +30,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
 import {MatTooltipModule} from "@angular/material/tooltip";
 import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsPanelComponent } from './skills/skills-panel/skills-panel.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { EducationComponent } from './education/education.component';
     ImagePipe,
     CertificatesComponent,
     AboutComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsPanelComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,20 @@
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+<mat-accordion class="example-headers-align" multi>
+  <mat-expansion-panel [expanded]="true" hideToggle>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ name }}
+      </mat-panel-title>
+      <mat-panel-description>
+        <p></p>
+        <span class="material-symbols-outlined custom-icon">{{ icon }}</span>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-card-content>
+      <mat-chip-list aria-label="Tools">
+        <app-chip *ngFor="let lan of skills" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
+      </mat-chip-list>
+    </mat-card-content>
+  </mat-expansion-panel>
+</mat-accordion>
