@@ -12,8 +12,6 @@ export class SkillsPanelComponent implements OnInit {
   @Input() icon: string;
   @Input() skills: Skill[];
 
-
-
   constructor() { }
 
   ngOnInit(): void {
