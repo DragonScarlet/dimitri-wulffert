@@ -31,6 +31,8 @@ import {MatTooltipModule} from "@angular/material/tooltip";
 import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsPanelComponent } from './skills/skills-panel/skills-panel.component';
+import { JobPanelComponent } from './experience/job-panel/job-panel.component';
+import { ProjectPanelComponent } from './experience/job-panel/project-panel/project-panel.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { SkillsPanelComponent } from './skills/skills-panel/skills-panel.compone
     CertificatesComponent,
     AboutComponent,
     EducationComponent,
-    SkillsPanelComponent
+    SkillsPanelComponent,
+    JobPanelComponent,
+    ProjectPanelComponent
   ],
   imports: [
     BrowserModule,

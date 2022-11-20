@@ -1,0 +1,27 @@
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      {{ job.name }}
+    </mat-panel-title>
+    <mat-panel-description>
+      {{ job.company }}
+      <img style="height: 30px" [src]="job.icon">
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <mat-accordion class="example-headers-align" multi>
+    <mat-expansion-panel *ngFor="let project of job.projects">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ project.name }}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{ project.time }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      {{ project.description }}
+    </mat-expansion-panel>
+  </mat-accordion>
+  <mat-action-row>
+    <span>{{ job.time }}</span>
+  </mat-action-row>
+</mat-expansion-panel>
