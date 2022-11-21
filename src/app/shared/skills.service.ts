@@ -85,19 +85,19 @@ export class SkillsService {
         for (let skill of project.skills) {
           switch(skill.type) {
             case programingLanguage: {
-              this.programingLanguages.push(skill);
+              this.pushToList(this.programingLanguages, skill);
               break;
             }
             case frameWork: {
-              this.frameWorks.push(skill);
+              this.pushToList(this.frameWorks, skill);
               break;
             }
             case dataBase: {
-              this.dataBases.push(skill);
+              this.pushToList(this.dataBases, skill);
               break;
             }
             case tool: {
-              this.tools.push(skill);
+              this.pushToList(this.tools, skill);
               break;
             }
             default: {
@@ -106,6 +106,12 @@ export class SkillsService {
           }
         }
       }
+    }
+  }
+
+  pushToList(list, skill){
+    if(list.indexOf(skill) === -1) {
+      list.push(skill);
     }
   }
 
