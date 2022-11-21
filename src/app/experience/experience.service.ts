@@ -6,15 +6,15 @@ import {
   ANGULARJS,
   BITBUCKET,
   CONFLUENCE, CPLUS, CSHARP,
-  CSS, CUCUMBER, DB2, DOCKER, ECLIPSE, GIT, HIBERNATE,
-  HTML,
+  CSS, CUCUMBER, DB2, DOCKER, ECLIPSE, GIT, GITKRAKEN, HIBERNATE,
+  HTML, INTELLIJ,
   JAVA, JAVASCRIPT,
   JENKINS, JIRA, JQUERY,
   JSF,
-  JUNIT, KANBAN, KIBANA,
-  MOCKITO, ORACLE, POSTGRES,
+  JUNIT, KANBAN, KIBANA, KUBERNETES,
+  MOCKITO, MONGO, ORACLE, POSTGRES,
   PRIMEFACES, PYTHON, SCRUM,
-  SONARCUBE, SOURCETREE, SPRING, SQL, SVN, UFT, UNITY, VB
+  SONARCUBE, SOURCETREE, SPRING, SQL, SVN, TYPESCRIPT, UFT, UNITY, VB
 } from "../shared/skills.service";
 
 @Injectable({
@@ -38,7 +38,7 @@ export class ExperienceService {
           'Component Architect',
           '2 years',
           'Worked as a Component Architect for insurance software company. Ensuring software follows the company technical requirements.',
-          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, MOCKITO, CUCUMBER, SQL, POSTGRES, DB2, ORACLE, DOCKER, ECLIPSE, SVN, GIT, SOURCETREE, JIRA, CONFLUENCE, BITBUCKET, KIBANA, SCRUM, SPRING, HIBERNATE],
+          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, MOCKITO, CUCUMBER, SQL, POSTGRES, DB2, ORACLE, DOCKER, ECLIPSE, SVN, GIT, SOURCETREE, JIRA, CONFLUENCE, BITBUCKET, KIBANA, SCRUM, SPRING, HIBERNATE, KUBERNETES],
           'assets/companies/msg2.png'
         ),
       ]
@@ -87,6 +87,16 @@ export class ExperienceService {
         new Project('Research Assistant', '1 year', 'Developed two applications using Electromyography (EMG) sensors with unity and C++.',
           [CPLUS],
           'assets/companies/nagaoka.png')
+      ]
+    ),
+    new Job('My Projects',
+      '',
+      '',
+      '1987.07 - present',
+      [
+        new Project('DsCvNex', '-', 'Developed a self hosted CV using Angular, AngularMaterial and Github pages.',
+          [TYPESCRIPT, ANGULAR, INTELLIJ, GITKRAKEN, MONGO],
+          'assets/companies/angular.png')
       ]
     ),
   ];
