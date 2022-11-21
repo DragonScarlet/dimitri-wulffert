@@ -2,19 +2,19 @@ import {Injectable} from '@angular/core';
 import {Job} from "./job-panel/Job";
 import {Project} from "./job-panel/project-panel/Project";
 import {
-  ALM, ANDROID,
+  ALM, ANDROID, ANGULAR,
   ANGULARJS,
   BITBUCKET,
   CONFLUENCE, CPLUS, CSHARP,
-  CSS, CUCUMBER, DB2, DOCKER, ECLIPSE, GIT,
+  CSS, CUCUMBER, DB2, DOCKER, ECLIPSE, GIT, HIBERNATE,
   HTML,
-  JAVA,
+  JAVA, JAVASCRIPT,
   JENKINS, JIRA, JQUERY,
   JSF,
   JUNIT, KANBAN, KIBANA,
   MOCKITO, ORACLE, POSTGRES,
-  PRIMEFACES, SCRUM,
-  SONARCUBE, SOURCETREE, SQL, SVN, UFT, UNITY, VB
+  PRIMEFACES, PYTHON, SCRUM,
+  SONARCUBE, SOURCETREE, SPRING, SQL, SVN, UFT, UNITY, VB
 } from "../shared/skills.service";
 
 @Injectable({
@@ -38,7 +38,7 @@ export class ExperienceService {
           'Component Architect',
           '2 years',
           'Worked as a Component Architect for insurance software company. Ensuring software follows the company technical requirements.',
-          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, MOCKITO, CUCUMBER, SQL, POSTGRES, DB2, ORACLE, DOCKER, ECLIPSE, SVN, GIT, SOURCETREE, JIRA, CONFLUENCE, BITBUCKET, KIBANA, SCRUM],
+          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, MOCKITO, CUCUMBER, SQL, POSTGRES, DB2, ORACLE, DOCKER, ECLIPSE, SVN, GIT, SOURCETREE, JIRA, CONFLUENCE, BITBUCKET, KIBANA, SCRUM, SPRING, HIBERNATE],
           'assets/companies/msg2.png'
         ),
       ]
@@ -49,7 +49,7 @@ export class ExperienceService {
       '2018.10 - 2020.06',
       [
         new Project('Frontend-Backend', '2 years', 'Developed and maintained insurance software using Java,SF, Springboot, SQL, SOAP, xHTML, JIRA and Jenkins.',
-          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, SQL, POSTGRES, DB2, ORACLE, ECLIPSE, SVN, JIRA, CONFLUENCE, BITBUCKET, KANBAN],
+          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, SQL, POSTGRES, DB2, ORACLE, ECLIPSE, SVN, JIRA, CONFLUENCE, BITBUCKET, KANBAN, SPRING, HIBERNATE],
           'assets/companies/msg2.png'),
       ]
     ),
@@ -59,10 +59,10 @@ export class ExperienceService {
       '2015.09 - 2018.09',
       [
         new Project('Frontend-Backend', '1/2 year', 'Finished developing a JSF application.',
-          [JAVA, JSF, PRIMEFACES, JIRA, CONFLUENCE, GIT, SQL],
+          [JAVA, JSF, PRIMEFACES, JIRA, CONFLUENCE, GIT, SQL, SPRING, HIBERNATE],
           'assets/companies/bmw.png'),
         new Project('Frontend-Backend', '2 years', 'Responsible for developing front and backend web applications using AngularJS, JQuery, HTML, CSS, SQL and Java.',
-          [JAVA, ANGULARJS, JQUERY, CSS, SQL, JUNIT, JIRA, CONFLUENCE],
+          [JAVA, JAVASCRIPT, ANGULARJS, ANGULAR, JQUERY, CSS, SQL, JUNIT, JIRA, CONFLUENCE, SPRING, HIBERNATE],
           'assets/companies/vw.png'),
         new Project('Tester', '1 year', 'Developed automatic and manual tests for VW Car-Net Japan using HP UFT and ALM.',
           [UFT, ALM, JIRA, CONFLUENCE, VB],
@@ -75,7 +75,7 @@ export class ExperienceService {
       '2013.09 - 2015.08',
       [
         new Project('Research Assistant', '2 year', 'Ported computer serious games to android using C#. Analyzed and represented data using IPython notebook.',
-          [CSHARP, UNITY, ANDROID],
+          [CSHARP, UNITY, ANDROID, PYTHON],
           'assets/companies/tud.svg')
       ]
     ),
