@@ -8,10 +8,16 @@ export const JAVASCRIPT = new Skill('JavaScript', 'javascript', 'yellow');
 export const TYPESCRIPT = new Skill('TypeScript', 'javascript', 'blue');
 export const HTML = new Skill('HTML', 'html', 'green');
 export const CSS = new Skill('css', 'html', 'green');
+export const VB = new Skill('VB', 'cube', 'blue');
+export const CSHARP = new Skill('C#', 'cube', 'yellow');
+export const CPLUS = new Skill('C++', 'cube', 'red');
+export const ANDROID = new Skill('Android', 'robot', 'green');
 
 // FrameWorks
 export const ANGULAR = new Skill('Angular', 'angular', 'red');
 export const ANGULARJS = new Skill('AngularJs', 'angular', 'red');
+export const JQUERY = new Skill('JQUERY', 'javascript', 'blue');
+export const JSF = new Skill('JSF', 'java', 'blue');
 export const PRIMEFACES = new Skill('Primefaces', 'robot', 'blue');
 export const SPRING = new Skill('Spring', 'leaf', 'green');
 export const HIBERNATE = new Skill('Hibernate', 'db', 'purple');
@@ -38,6 +44,15 @@ export const JIRA = new Skill('Jira', 'jira', 'blue');
 export const INTELLIJ = new Skill('IntelliJ', 'jet', 'purple');
 export const JENKINS = new Skill('Jenkins', 'jenkins', 'red');
 export const SONARCUBE = new Skill('SonarCube', 'cube', 'purple');
+export const ECLIPSE = new Skill('Eclipse', 'cube', 'purple');
+export const SVN = new Skill('SVN', 'cube', 'yellow');
+export const GIT = new Skill('GIT', 'cube', 'purple');
+export const KIBANA = new Skill('Kibana', 'cube', 'red');
+export const SCRUM = new Skill('Scrum', 'cube', 'purple');
+export const KANBAN = new Skill('Kanban', 'cube', 'green');
+export const UFT = new Skill('UFT', 'cube', 'yellow');
+export const ALM = new Skill('ALM', 'cube', 'yellow');
+export const UNITY = new Skill('Unity', 'cube', 'purple');
 
 @Injectable({
   providedIn: 'root'

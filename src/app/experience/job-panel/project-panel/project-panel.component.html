@@ -9,6 +9,12 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     {{ project.description }}
+    <br>
+    <br>
+    <mat-chip-list aria-label="Skills">
+      <app-chip *ngFor="let lan of project.skills" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
+    </mat-chip-list>
      </mat-expansion-panel>
 </mat-accordion>
 <br>
+

@@ -1,20 +1,33 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Job} from "./job-panel/Job";
 import {Project} from "./job-panel/project-panel/Project";
-import {JAVA, SkillsService} from "../shared/skills.service";
+import {
+  ALM, ANDROID,
+  ANGULARJS,
+  BITBUCKET,
+  CONFLUENCE, CPLUS, CSHARP,
+  CSS, CUCUMBER, DB2, DOCKER, ECLIPSE, GIT,
+  HTML,
+  JAVA,
+  JENKINS, JIRA, JQUERY,
+  JSF,
+  JUNIT, KANBAN, KIBANA,
+  MOCKITO, ORACLE, POSTGRES,
+  PRIMEFACES, SCRUM,
+  SONARCUBE, SOURCETREE, SQL, SVN, UFT, UNITY, VB
+} from "../shared/skills.service";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ExperienceService {
 
-  jobs : Job[] = [
+  jobs: Job[] = [
     new Job('Profesional Consultant',
       'bbv Software Services GmbH',
       'assets/companies/bbv_Rakete.svg',
       '2020.07 - 2022.09',
-      [
-      ]
+      []
     ),
     new Job('Senior IT Consultant',
       'MSG Nexinsure',
@@ -25,7 +38,7 @@ export class ExperienceService {
           'Component Architect',
           '2 years',
           'Worked as a Component Architect for insurance software company. Ensuring software follows the company technical requirements.',
-        [JAVA]
+          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, MOCKITO, CUCUMBER, SQL, POSTGRES, DB2, ORACLE, DOCKER, ECLIPSE, SVN, GIT, SOURCETREE, JIRA, CONFLUENCE, BITBUCKET, KIBANA, SCRUM]
         ),
       ]
     ),
@@ -34,7 +47,8 @@ export class ExperienceService {
       'assets/companies/aequitas2.png',
       '2018.10 - 2020.06',
       [
-        new Project('Frontend-Backend', '2 years', 'Developed and maintained insurance software using Java,SF, Springboot, SQL, SOAP, xHTML, JIRA and Jenkins.', [JAVA]),
+        new Project('Frontend-Backend', '2 years', 'Developed and maintained insurance software using Java,SF, Springboot, SQL, SOAP, xHTML, JIRA and Jenkins.',
+          [JAVA, HTML, CSS, PRIMEFACES, JSF, JENKINS, SONARCUBE, JUNIT, SQL, POSTGRES, DB2, ORACLE, ECLIPSE, SVN, JIRA, CONFLUENCE, BITBUCKET, KANBAN]),
       ]
     ),
     new Job('IT Consultant',
@@ -42,9 +56,12 @@ export class ExperienceService {
       'assets/companies/mvi2.png',
       '2015.09 - 2018.09',
       [
-        new Project('Frontend-Backend', '1/2 year', 'Finished developing a JSF application.',[JAVA]),
-        new Project('Frontend-Backend', '2 years', 'Responsible for developing front and backend web applications using AngularJS, JQuery, HTML, CSS, SQL and Java.',[JAVA]),
-        new Project('Tester', '1 year', 'Developed automatic and manual tests for VW Car-Net Japan using HP UFT and ALM.',[]),
+        new Project('Frontend-Backend', '1/2 year', 'Finished developing a JSF application.',
+          [JAVA, JSF, JIRA, CONFLUENCE, GIT, SQL]),
+        new Project('Frontend-Backend', '2 years', 'Responsible for developing front and backend web applications using AngularJS, JQuery, HTML, CSS, SQL and Java.',
+          [JAVA, ANGULARJS, JQUERY, CSS, SQL, JUNIT, JIRA, CONFLUENCE]),
+        new Project('Tester', '1 year', 'Developed automatic and manual tests for VW Car-Net Japan using HP UFT and ALM.',
+          [UFT, ALM, JIRA, CONFLUENCE, VB]),
       ]
     ),
     new Job('Research Assistant',
@@ -52,7 +69,8 @@ export class ExperienceService {
       'assets/companies/tud.svg',
       '2013.09 - 2015.08',
       [
-        new Project('Research Assistant', '2 year', 'Ported computer serious games to android using C#. Analyzed and represented data using IPython notebook.',[])
+        new Project('Research Assistant', '2 year', 'Ported computer serious games to android using C#. Analyzed and represented data using IPython notebook.',
+          [CSHARP, UNITY, ANDROID])
       ]
     ),
     new Job('Researcher',
@@ -60,14 +78,16 @@ export class ExperienceService {
       'assets/companies/nagaoka.png',
       '2012.09 - 2013.08',
       [
-      new Project('Research Assistant', '1 year', 'Developed two applications using Electromyography (EMG) sensors with unity and C++.',[])
-    ]
+        new Project('Research Assistant', '1 year', 'Developed two applications using Electromyography (EMG) sensors with unity and C++.',
+          [CPLUS])
+      ]
     ),
   ];
 
-  constructor() { }
+  constructor() {
+  }
 
-  getJobs(){
+  getJobs() {
     return this.jobs;
   }
 }
