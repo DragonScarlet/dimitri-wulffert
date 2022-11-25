@@ -89,12 +89,12 @@ export class ExperienceService {
           'assets/companies/nagaoka.png')
       ]
     ),
-    new Job('My Projects',
-      '',
-      '',
-      '1987.07 - present',
+    new Job('Freelancer',
+      'My Projects',
+      'assets/companies/artorias.png',
+      '2022.10 - present',
       [
-        new Project('DsCvNex', '-', 'Developed a self hosted CV using Angular, AngularMaterial and Github pages.',
+        new Project('DsCvNex', '2 months', 'Developed a self hosted CV using Angular, AngularMaterial and Github pages.',
           [TYPESCRIPT, ANGULAR, INTELLIJ, GITKRAKEN, MONGO],
           'assets/companies/angular.png')
       ]
