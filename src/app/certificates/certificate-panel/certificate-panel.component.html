@@ -1,0 +1,21 @@
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      {{ certificate.type }}
+    </mat-panel-title>
+    <mat-panel-description>
+      {{ certificate.name }}
+      <span *ngIf="this.certificate.linkCertificate == ''">In Progress...</span>
+      <img *ngIf="this.certificate.linkCertificate == ''"
+           class="totoro"
+           src="assets/gif/totoro.gif" alt="in Progress" />
+      <img style="width: 35px" [src]="certificate.icon">
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+  <mat-action-row>
+    <button mat-button color="warn" (click)="navToCourse()">Udemy</button>
+    <button *ngIf="this.certificate.linkCertificate == ''" mat-button color="primary" disabled>Certificate</button>
+    <button *ngIf="!(this.certificate.linkCertificate =='')" mat-button color="primary" (click)="navToCertificate()">Certificate</button>
+  </mat-action-row>
+</mat-expansion-panel>
+<br>

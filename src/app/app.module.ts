@@ -33,6 +33,7 @@ import { EducationComponent } from './education/education.component';
 import { SkillsPanelComponent } from './skills/skills-panel/skills-panel.component';
 import { JobPanelComponent } from './experience/job-panel/job-panel.component';
 import { ProjectPanelComponent } from './experience/job-panel/project-panel/project-panel.component';
+import { CertificatePanelComponent } from './certificates/certificate-panel/certificate-panel.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ProjectPanelComponent } from './experience/job-panel/project-panel/proj
     EducationComponent,
     SkillsPanelComponent,
     JobPanelComponent,
-    ProjectPanelComponent
+    ProjectPanelComponent,
+    CertificatePanelComponent
   ],
   imports: [
     BrowserModule,
