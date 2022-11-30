@@ -26,16 +26,16 @@ export class CertificatesService {
       'https://www.udemy.com/course/the-complete-guide-to-angular-2/',
       'https://www.udemy.com/certificate/UC-96aadcb7-7992-4f40-9dc9-292784005c65/'),
     new Certificate(
+      'Clean Coding',
+      'Clean Code',
+      'assets/companies/clean.png',
+      'https://www.udemy.com/course/writing-clean-code/',
+      'https://www.udemy.com/certificate/UC-1251cda8-4d2d-4caa-8e3f-864b4431d669/'),
+    new Certificate(
       'AWS',
       '',
       'assets/companies/aws.png',
       'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
-      ''),
-    new Certificate(
-      'Clean Code',
-      '',
-      'assets/companies/clean.png',
-      'https://www.udemy.com/course/writing-clean-code/',
       ''),
   ];
 
