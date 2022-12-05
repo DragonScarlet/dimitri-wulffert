@@ -7,34 +7,20 @@ import {DATA_BASE, FRAMEWORK, PROGRAMING_LANGUAGE, TOOL} from "../skills.service
 })
 export class SortPipe implements PipeTransform {
 
+  skills = [PROGRAMING_LANGUAGE, FRAMEWORK, TOOL, DATA_BASE];
+
   transform(array: Array<Skill>): Array<Skill> {
     array.sort((a: any, b: any) => {
       if(a.type == b.type){
         return 0;
       }
-      if(a.type == PROGRAMING_LANGUAGE){
-        return -1;
-      }
-      if(b.type == PROGRAMING_LANGUAGE){
-        return 1;
-      }
-      if(a.type == FRAMEWORK){
-        return -1;
-      }
-      if(b.type == FRAMEWORK){
-        return 1;
-      }
-      if(a.type == TOOL){
-        return -1;
-      }
-      if(b.type == TOOL){
-        return 1;
-      }
-      if(a.type == DATA_BASE){
-        return -1;
-      }
-      if(b.type == DATA_BASE){
-        return 1;
+      for (let skill of this.skills) {
+        if(a.type == skill){
+          return -1;
+        }
+        if(b.type == skill){
+          return 1;
+        }
       }
       return 0;
     });
