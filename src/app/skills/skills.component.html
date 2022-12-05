@@ -1,3 +1,18 @@
+<div class="center">
+  <div class="example-flex-container">
+    <div class="example-button-container">
+      <button mat-mini-fab color="warn" aria-label="Example icon button with a bookmark icon" (click)="flipLevel()">
+        <mat-icon>bookmark</mat-icon>
+      </button>
+    </div>
+    <div class="example-button-container">
+      <button mat-mini-fab color="primary" aria-label="Example icon button with a bookmark icon" (click)="flipLevel()">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
+<br>
 <app-skills-panel name="ProgrammingLanguages" icon="code_blocks" [skills]="programingLanguages()"></app-skills-panel>
 <br>
 <app-skills-panel name="FrameWorks" icon="home_repair_service" [skills]="frameWorks()"></app-skills-panel>

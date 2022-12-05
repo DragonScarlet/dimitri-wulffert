@@ -29,4 +29,8 @@ export class SkillsComponent implements OnInit {
   tools() {
     return this.skillService.getTools();
   }
+
+  flipLevel() {
+    this.skillService.flipLevel();
+  }
 }

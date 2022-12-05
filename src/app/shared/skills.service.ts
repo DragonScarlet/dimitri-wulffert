@@ -77,6 +77,7 @@ export class SkillsService {
   frameWorks = [];
   dataBases = [];
   tools = [];
+  showLevel = false;
 
   constructor(private experienceService: ExperienceService) {
     let allJobs = experienceService.getJobs();
@@ -110,8 +111,12 @@ export class SkillsService {
   }
 
   pushToList(list, skill){
-    if(list.indexOf(skill) === -1) {
+    let index = list.indexOf(skill);
+    if(index === -1) {
       list.push(skill);
+    }
+    else{
+      list[index].levelUp();
     }
   }
 
@@ -129,5 +134,13 @@ export class SkillsService {
 
   getTools() {
     return this.tools;
+  }
+
+  getLevel() {
+    return this.showLevel;
+  }
+
+  flipLevel() {
+    this.showLevel = !this.showLevel;
   }
 }

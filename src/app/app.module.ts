@@ -35,6 +35,8 @@ import { JobPanelComponent } from './experience/job-panel/job-panel.component';
 import { ProjectPanelComponent } from './experience/job-panel/project-panel/project-panel.component';
 import { CertificatePanelComponent } from './certificates/certificate-panel/certificate-panel.component';
 import { SortPipe } from './shared/pipes/sort.pipe';
+import {MatBadgeModule} from "@angular/material/badge";
+import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 
 @NgModule({
   declarations: [
@@ -56,26 +58,28 @@ import { SortPipe } from './shared/pipes/sort.pipe';
     CertificatePanelComponent,
     SortPipe
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    MatCardModule,
-    MatSliderModule,
-    MatTabsModule,
-    MatExpansionModule,
-    CdkAccordionModule,
-    MatIconModule,
-    MatProgressSpinnerModule,
-    MatGridListModule,
-    MatChipsModule,
-    MatDividerModule,
-    MatProgressBarModule,
-    MatTooltipModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
+        MatCardModule,
+        MatSliderModule,
+        MatTabsModule,
+        MatExpansionModule,
+        CdkAccordionModule,
+        MatIconModule,
+        MatProgressSpinnerModule,
+        MatGridListModule,
+        MatChipsModule,
+        MatDividerModule,
+        MatProgressBarModule,
+        MatTooltipModule,
+        MatBadgeModule,
+        MatSlideToggleModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

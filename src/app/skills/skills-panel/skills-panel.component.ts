@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Skill} from "../../shared/skill";
+import {SkillsService} from "../../shared/skills.service";
 
 @Component({
   selector: 'app-skills-panel',
@@ -12,9 +13,13 @@ export class SkillsPanelComponent implements OnInit {
   @Input() icon: string;
   @Input() skills: Skill[];
 
-  constructor() { }
+  constructor(private skillService: SkillsService) { }
 
   ngOnInit(): void {
+  }
+
+  getShowLevel() {
+    return this.skillService.showLevel;
   }
 
 }
