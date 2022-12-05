@@ -37,6 +37,12 @@ export class CertificatesService {
       'assets/companies/aws.png',
       'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
       ''),
+    new Certificate(
+      'Apache Camel',
+      '',
+      'assets/companies/camel.png',
+      'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
+      ''),
   ];
 
   constructor() { }
