@@ -34,6 +34,7 @@ import { SkillsPanelComponent } from './skills/skills-panel/skills-panel.compone
 import { JobPanelComponent } from './experience/job-panel/job-panel.component';
 import { ProjectPanelComponent } from './experience/job-panel/project-panel/project-panel.component';
 import { CertificatePanelComponent } from './certificates/certificate-panel/certificate-panel.component';
+import { SortPipe } from './shared/pipes/sort.pipe';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { CertificatePanelComponent } from './certificates/certificate-panel/cert
     SkillsPanelComponent,
     JobPanelComponent,
     ProjectPanelComponent,
-    CertificatePanelComponent
+    CertificatePanelComponent,
+    SortPipe
   ],
   imports: [
     BrowserModule,
