@@ -3,9 +3,16 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  width: 2000px;
   height: auto;
   z-index:-1;
+}
+
+.bigScreen {
+  width: 100%;
+}
+
+.normalScreen {
+  width: 1920px;
 }
 
 

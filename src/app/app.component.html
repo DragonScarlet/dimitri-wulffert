@@ -1,9 +1,14 @@
 <app-header></app-header>
 
+<h1>{{ currentScreenSize }}</h1>
+<h1>{{ isBigScreen() }}</h1>
 <router-outlet></router-outlet>
 
-<video [loop]="true" [muted]="true" [volume]="0.0" [autoplay]="true" playsinline id="myVideo">
+<video [loop]="true" [muted]="true" [volume]="0.0" [autoplay]="true" playsinline id="myVideo"
+       [ngClass]="{'bigScreen': isBigScreen(), 'normalScreen': !isBigScreen()}">
   <source src="assets/videos/lake.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+
+
 
