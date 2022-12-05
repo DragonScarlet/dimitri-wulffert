@@ -41,7 +41,7 @@ export class CertificatesService {
       'Apache Camel',
       '',
       'assets/companies/camel.png',
-      'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
+      'https://www.udemy.com/course/apache-camel-framework-with-spring-boot/',
       ''),
   ];
 
