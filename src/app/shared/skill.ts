@@ -6,6 +6,6 @@ export class Skill {
   }
 
   levelUp(time) {
-    this.level += this.level + time;
+    this.level = this.level + time;
   }
 }
