@@ -32,16 +32,16 @@ export class CertificatesService {
       'https://www.udemy.com/course/writing-clean-code/',
       'https://www.udemy.com/certificate/UC-1251cda8-4d2d-4caa-8e3f-864b4431d669/'),
     new Certificate(
+      'Apache Camel',
+      'Learn Apache Camel Framework with Spring Boot',
+      'assets/companies/camel.png',
+      'https://www.udemy.com/course/apache-camel-framework-with-spring-boot/',
+      'https://www.udemy.com/certificate/UC-cdbd757d-85a1-4f02-8dcd-577b3d630f56/'),
+    new Certificate(
       'AWS',
       '',
       'assets/companies/aws.png',
       'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
-      ''),
-    new Certificate(
-      'Apache Camel',
-      '',
-      'assets/companies/camel.png',
-      'https://www.udemy.com/course/apache-camel-framework-with-spring-boot/',
       ''),
   ];
 
