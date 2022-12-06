@@ -26,7 +26,7 @@ export class ExperienceService {
     new Job('Profesional Consultant',
       'bbv Software Services GmbH',
       'assets/companies/bbv_Rakete.svg',
-      '2020.07 - 2022.09',
+      '2022.10 - present',
       []
     ),
     new Job('Senior IT Consultant',
