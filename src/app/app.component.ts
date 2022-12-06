@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {BreakpointObserver, Breakpoints, BreakpointState} from "@angular/cdk/layout";
-import {Subject, takeUntil} from "rxjs";
+import {fromEvent, Subject, takeUntil} from "rxjs";
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,12 @@ export class AppComponent {
   title = 'cv-nex2';
   destroyed = new Subject<void>();
   currentScreenSize: string;
+  destroy = new Subject();
+  destroy$ = this.destroy.asObservable();
+  highblur = false;
+  mediumblur = false;
+  lightblur = false;
+  ultrablur = false;
 
   displayNameMap = new Map([
     [Breakpoints.XSmall, 'XSmall'],
@@ -37,9 +43,19 @@ export class AppComponent {
           }
         }
       });
+
+    fromEvent(window, 'scroll').pipe(takeUntil(this.destroy$))
+      .subscribe((e: Event) => {
+        this.lightblur = window.scrollY > 50;
+        this.mediumblur = window.scrollY > 100;
+        this.highblur = window.scrollY > 150;
+        this.ultrablur = window.scrollY > 200;
+      });
+
   }
 
   isBigScreen() {
-    return this.currentScreenSize ===  'XLarge';
+    return this.currentScreenSize === 'XLarge';
   }
+
 }

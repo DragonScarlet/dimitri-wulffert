@@ -15,4 +15,23 @@
   width: 1920px;
 }
 
+.lightblur {
+  filter: blur(1px);
+}
+
+
+.mediumblur {
+  filter: blur(2px);
+}
+
+
+.highblur {
+  filter: blur(3px);
+}
+
+.ultrablur {
+  filter: blur(4px);
+}
+
+
 
