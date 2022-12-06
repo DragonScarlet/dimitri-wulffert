@@ -1,4 +1,4 @@
-<mat-chip [matBadge]="level" [matBadgeHidden]="showLevel" [matBadgeColor]="getLevelColor()">
+<mat-chip [matBadge]="level" [matBadgeHidden]="!showLevel" [matBadgeColor]="getLevelColor()" [selected]="showRating" [color]="chipColor">
   <mat-icon [svgIcon]="iconName" aria-hidden="false" aria-label="text" [class]="color"></mat-icon>
   <span >&nbsp; {{ text }}</span>
 </mat-chip>

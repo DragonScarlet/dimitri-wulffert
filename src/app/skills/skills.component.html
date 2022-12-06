@@ -1,12 +1,14 @@
 <div class="center">
   <div class="example-flex-container">
     <div class="example-button-container">
-      <button mat-mini-fab color="warn" aria-label="Example icon button with a bookmark icon" (click)="flipLevel()">
-        <mat-icon>bookmark</mat-icon>
+      <button mat-mini-fab [color]="getLevelColor()" aria-label="Example icon button with a bookmark icon" (click)="flipLevel()"
+              matTooltip="Show skills power level in Months!" >
+        <mat-icon>bolt</mat-icon>
       </button>
     </div>
     <div class="example-button-container">
-      <button mat-mini-fab color="primary" aria-label="Example icon button with a bookmark icon" (click)="flipLevel()">
+      <button mat-mini-fab [color]="getRatingColor()" aria-label="Example icon button with a bookmark icon" (click)="flipRating()"
+              matTooltip="Show favorite skills!">
         <mat-icon>favorite</mat-icon>
       </button>
     </div>

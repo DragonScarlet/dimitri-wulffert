@@ -22,4 +22,8 @@ export class SkillsPanelComponent implements OnInit {
     return this.skillService.showLevel;
   }
 
+  getShowRating() {
+    return this.skillService.showRating;
+  }
+
 }
