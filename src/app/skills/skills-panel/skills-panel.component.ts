@@ -3,9 +3,10 @@ import {Skill} from "../../shared/skill";
 import {SkillsService} from "../../shared/skills.service";
 
 @Component({
-  selector: 'app-skills-panel',
-  templateUrl: './skills-panel.component.html',
-  styleUrls: ['./skills-panel.component.css']
+    selector: 'app-skills-panel',
+    templateUrl: './skills-panel.component.html',
+    styleUrls: ['./skills-panel.component.css'],
+    standalone: false
 })
 export class SkillsPanelComponent implements OnInit {
 

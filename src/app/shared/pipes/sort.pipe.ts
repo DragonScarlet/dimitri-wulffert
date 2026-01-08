@@ -3,7 +3,8 @@ import {Skill} from "../skill";
 import {DATA_BASE, FRAMEWORK, PROGRAMING_LANGUAGE, TOOL} from "../skills.service";
 
 @Pipe({
-  name: 'sort'
+    name: 'sort',
+    standalone: false
 })
 export class SortPipe implements PipeTransform {
 

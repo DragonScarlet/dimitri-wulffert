@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import {ProgressSpinnerMode} from "@angular/material/progress-spinner";
 
 @Component({
-  selector: 'app-language',
-  templateUrl: './language.component.html',
-  styleUrls: ['./language.component.css'],
+    selector: 'app-language',
+    templateUrl: './language.component.html',
+    styleUrls: ['./language.component.css'],
+    standalone: false
 })
 export class LanguageComponent implements OnInit {
 

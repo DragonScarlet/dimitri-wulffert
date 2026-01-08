@@ -3,9 +3,10 @@ import {DOCUMENT} from "@angular/common";
 import {Certificate} from "./Certificate";
 
 @Component({
-  selector: 'app-certificate-panel',
-  templateUrl: './certificate-panel.component.html',
-  styleUrls: ['./certificate-panel.component.css']
+    selector: 'app-certificate-panel',
+    templateUrl: './certificate-panel.component.html',
+    styleUrls: ['./certificate-panel.component.css'],
+    standalone: false
 })
 export class CertificatePanelComponent implements OnInit {
   @Input() certificate: Certificate;
