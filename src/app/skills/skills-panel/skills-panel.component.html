@@ -13,9 +13,9 @@
       </mat-panel-description>
     </mat-expansion-panel-header>
     <mat-card-content>
-      <mat-chip-list aria-label="Tools">
+      <mat-chip-set aria-label="Tools">
         <app-chip *ngFor="let lan of skills" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color" [level]="lan.level" [showLevel]="getShowLevel()" [rating]="lan.rating" [showRating]="getShowRating()"></app-chip>
-      </mat-chip-list>
+      </mat-chip-set>
     </mat-card-content>
   </mat-expansion-panel>
 </mat-accordion>
