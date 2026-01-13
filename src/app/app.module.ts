@@ -37,6 +37,7 @@ import { CertificatePanelComponent } from './certificates/certificate-panel/cert
 import { SortPipe } from './shared/pipes/sort.pipe';
 import {MatBadgeModule} from "@angular/material/badge";
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import {MatSlideToggleModule} from "@angular/material/slide-toggle";
         MatProgressBarModule,
         MatTooltipModule,
         MatBadgeModule,
-        MatSlideToggleModule
+        MatSlideToggleModule,
+        HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]
