@@ -32,72 +32,9 @@
 }
 
 .custom-img {
-  height: 25px; 
-  vertical-align: middle; 
-  padding-left: 5px; 
-  cursor: pointer;
+  height: 25px; vertical-align: middle; padding-left: 5px; cursor: pointer;
 }
 
 .rounded-corners {
   border-radius: 30px;
-}
-
-.profile-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #f0f0f0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.contact-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  transition: opacity 0.2s ease;
-}
-
-.contact-link:hover {
-  opacity: 0.8;
-}
-
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-  margin-right: 8px;
-  margin-bottom: 8px;
-}
-
-.social-link:hover {
-  background-color: rgba(0,0,0,0.04);
-}
-
-/* Make mat-card-actions look better */
-::ng-deep mat-card-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 8px;
-}
-
-::ng-deep mat-card-header {
-  padding-bottom: 8px;
-}
-
-::ng-deep .mat-mdc-card__actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
 }
