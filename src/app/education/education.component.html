@@ -12,34 +12,14 @@
 
     <div class="panel-content">
       <mat-chip-set aria-label="Education">
-        <mat-chip color="primary" matTooltip="Currently working here :)">
-          <img matChipAvatar src="assets/companies/bbv.png" alt="TUD"/>
-          Professional Consultant
-        </mat-chip>
-        <mat-chip  color="warn" matTooltip="This was my last job">
-          <img matChipAvatar src="assets/companies/msg4.jpg" alt="MSG"/>
-          Senior IT Consultant
-        </mat-chip>
-        <mat-chip>
-          <img matChipAvatar src="assets/companies/aequitas.png" alt="AE"/>
-          Senior IT Consultant
-        </mat-chip>
-        <mat-chip>
-          <img matChipAvatar src="assets/companies/mvi3.jpg" alt="MVI"/>
-          IT Consultant
-        </mat-chip>
-        <mat-chip color="primary" matTooltip="My highest education level">
-          <img matChipAvatar src="assets/companies/tud.svg" alt="TUD"  style="background-color: white;"/>
-          Master of Science
-        </mat-chip>
-        <mat-chip color="warn" matTooltip="My secondary education level">
-          <img matChipAvatar src="assets/companies/tud.svg" alt="TUD"  style="background-color: white;"/>
-          Bachelor of Science
-        </mat-chip>
-        <mat-chip color="accent">
-          <img matChipAvatar src="assets/companies/nagaoka.png" alt="NUT" style="background-color: white;"/>
-          International Exchange
-        </mat-chip>
+        <app-chip 
+          *ngFor="let item of educationItems" 
+          [text]="item.text" 
+          [imagePath]="item.imagePath"
+          [imageAlt]="item.imageAlt"
+          [color]="item.color"
+          matTooltip="{{ item.tooltip }}">
+        </app-chip>
       </mat-chip-set>
     </div>
   </mat-expansion-panel>

@@ -11,11 +11,9 @@
   filter: invert(75%) sepia(93%) saturate(2393%) hue-rotate(8deg) brightness(109%) contrast(95%);
 }
 
-
 .purple {
   filter: invert(16%) sepia(50%) saturate(6889%) hue-rotate(272deg) brightness(87%) contrast(97%);
 }
-
 
 .yellow {
   filter: invert(15%) sepia(83%) saturate(6208%) hue-rotate(1deg) brightness(103%) contrast(124%);
@@ -23,6 +21,22 @@
 
 .orange {
   filter: invert(15%) sepia(44%) saturate(7394%) hue-rotate(353deg) brightness(95%) contrast(90%);
+}
+
+/* Styling for image avatars in chips */
+.chip-image-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(54, 58, 79, 0.1);
+}
+
+/* Ensure glass effect works properly with image avatars */
+.mat-mdc-chip .mat-mdc-chip-avatar {
+  backdrop-filter: blur(2px) !important;
+  -webkit-backdrop-filter: blur(2px) !important;
 }
 
 

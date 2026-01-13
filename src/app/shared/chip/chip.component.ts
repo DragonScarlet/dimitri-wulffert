@@ -13,6 +13,8 @@ export class ChipComponent implements OnInit {
 
   @Input() text: string;
   @Input() iconName: string;
+  @Input() imagePath: string;
+  @Input() imageAlt: string;
   @Input() color: string;
   @Input() level: number;
   @Input() showLevel: boolean;
@@ -63,7 +65,8 @@ export class ChipComponent implements OnInit {
       { name: 'mockito', path: '/assets/svgs/mockito.svg' },
       { name: 'junit', path: '/assets/svgs/junit.svg' },
       { name: 'cube', path: '/assets/svgs/cube.svg' },
-      { name: 'jenkins', path: '/assets/svgs/jenkins.svg' }
+      { name: 'jenkins', path: '/assets/svgs/jenkins.svg' },
+      
     ];
 
     icons.forEach(icon => {

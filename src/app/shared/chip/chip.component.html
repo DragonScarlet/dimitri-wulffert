@@ -1,18 +1,29 @@
 <mat-chip [matBadge]="level" [matBadgeHidden]="!showLevel" [matBadgeColor]="getLevelColor()" [style]="'--mdc-chip-elevated-container-color: ' + getChipColor()">
+  <!-- Image avatar for company logos -->
+  <img 
+    *ngIf="imagePath"
+    matChipAvatar
+    [src]="imagePath" 
+    [alt]="imageAlt"
+    class="chip-image-avatar">
+  
+  <!-- SVG icon avatar for skills -->
   <mat-icon 
+    *ngIf="iconName && !imagePath"
     matChipAvatar
     [svgIcon]="iconName" 
     aria-hidden="false" 
     aria-label="text" 
-    [class]="getColorClass()"
-    *ngIf="iconName; else fallbackIcon">
+    [class]="getColorClass()">
   </mat-icon>
-  <ng-template #fallbackIcon>
-    <mat-icon 
-      matChipAvatar
-      aria-hidden="false" 
-      aria-label="text" 
-      [class]="getColorClass()">help_outline</mat-icon>
-  </ng-template>
+  
+  <!-- Fallback icon when neither image nor icon is provided -->
+  <mat-icon 
+    *ngIf="!iconName && !imagePath"
+    matChipAvatar
+    aria-hidden="false" 
+    aria-label="text" 
+    [class]="getColorClass()">help_outline</mat-icon>
+  
   {{ text }}
 </mat-chip>
