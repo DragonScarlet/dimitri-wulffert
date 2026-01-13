@@ -1,5 +1,6 @@
 <mat-chip [matBadge]="level" [matBadgeHidden]="!showLevel" [matBadgeColor]="getLevelColor()"  [color]="chipColor">
   <mat-icon 
+    matChipAvatar
     [svgIcon]="iconName" 
     aria-hidden="false" 
     aria-label="text" 
@@ -7,7 +8,11 @@
     *ngIf="iconName; else fallbackIcon">
   </mat-icon>
   <ng-template #fallbackIcon>
-    <mat-icon aria-hidden="false" aria-label="text" [class]="color">help_outline</mat-icon>
+    <mat-icon 
+      matChipAvatar
+      aria-hidden="false" 
+      aria-label="text" 
+      [class]="color">help_outline</mat-icon>
   </ng-template>
-  <span >&nbsp; {{ text }}</span>
+  {{ text }}
 </mat-chip>
