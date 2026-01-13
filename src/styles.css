@@ -14,3 +14,7 @@ body {
 
   padding-bottom: 88px;
 }
+
+.panel-content {
+  padding: 5px;
+}

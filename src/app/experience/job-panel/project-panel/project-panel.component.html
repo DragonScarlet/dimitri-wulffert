@@ -9,12 +9,14 @@
         <img style="height: 30px" [src]="project.icon">
       </mat-panel-description>
     </mat-expansion-panel-header>
-    {{ project.description }}
-    <br>
-    <br>
-    <mat-chip-set aria-label="Skills">
-      <app-chip *ngFor="let lan of project.skills | sort" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
-    </mat-chip-set>
+    <div class="panel-content">
+      {{ project.description }}
+      <br>
+      <br>
+      <mat-chip-set aria-label="Skills">
+        <app-chip *ngFor="let lan of project.skills | sort" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color"></app-chip>
+      </mat-chip-set>
+    </div>
      </mat-expansion-panel>
 </mat-accordion>
 <br>

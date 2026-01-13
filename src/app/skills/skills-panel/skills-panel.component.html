@@ -12,10 +12,10 @@
         <span class="material-symbols-outlined custom-icon">{{ icon }}</span>
       </mat-panel-description>
     </mat-expansion-panel-header>
-    <mat-card-content>
+    <div class="panel-content">
       <mat-chip-set aria-label="Tools">
         <app-chip *ngFor="let lan of skills" [iconName]="lan.icon" [text]="lan.name" [color]="lan.color" [level]="lan.level" [showLevel]="getShowLevel()" [rating]="lan.rating" [showRating]="getShowRating()"></app-chip>
       </mat-chip-set>
-    </mat-card-content>
+    </div>
   </mat-expansion-panel>
 </mat-accordion>
