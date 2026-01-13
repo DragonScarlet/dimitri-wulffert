@@ -1,25 +1,38 @@
 <mat-card class="example-card">
-  <mat-card-title-group>
+  <mat-card-header>
+    <div mat-card-avatar class="profile-avatar">
+      <img src="assets/contacts/Dimi3.jpg" alt="Dimitri Wulffert">
+    </div>
     <mat-card-title>Dimitri Wulffert</mat-card-title>
-    <mat-card-subtitle>
-      Professional Consultant
-      <br>
-      <br>
-      <a href="https://goo.gl/maps/eBPJC4QB1hdSPuYD6"><img class="filter-yellow custom-img "
-                                                           src="assets/contacts/location.svg"
-                                                           matTooltip="Located in munich area"></a>
-      <a href="mailto:dimknight@gmail.com?subject = Feedback&body = Message"><img class="filter-red custom-img " src="assets/contacts/mail.svg"></a>
-      <a href="https://www.linkedin.com/in/dimitri-wulffert-a63355ba/"><img class="filter-blue custom-img "
-                                                                            src="assets/contacts/linkedin.svg"></a>
-      <a href="https://www.xing.com/profile/Dimitri_Wulffert/cv"><img class="filter-green custom-img "
-                                                                      src="assets/contacts/xing.svg"></a>
-      <a href="https://github.com/DragonScarlet"><img class="filter-purple custom-img "
-                                                      src="assets/contacts/github.svg"></a>
-      <a href="https://hub.docker.com/u/dragonscarlet"><img class="filter-dark-blue custom-img "
-                                                            src="assets/contacts/docker.svg"></a>
-      <a href="https://www.codewars.com/users/DragonScarlet"><img class="filter-red custom-img "
-                                                            src="assets/contacts/codewars.svg"></a>
-    </mat-card-subtitle>
-    <img class="rounded-corners" mat-card-md-image src="assets/contacts/Dimi3.jpg">
-  </mat-card-title-group>
+    <mat-card-subtitle>Professional Consultant</mat-card-subtitle>
+  </mat-card-header>
+  
+  <mat-card-content>
+    <div class="contact-info">
+      <a href="https://goo.gl/maps/eBPJC4QB1hdSPuYD6" class="contact-link">
+        <img class="filter-yellow custom-img" src="assets/contacts/location.svg" matTooltip="Located in Munich area">
+      </a>
+      <a href="mailto:dimknight@gmail.com?subject=Feedback&body=Message" class="contact-link">
+        <img class="filter-red custom-img" src="assets/contacts/mail.svg" matTooltip="Send Email">
+      </a>
+    </div>
+  </mat-card-content>
+  
+  <mat-card-actions>
+    <a href="https://www.linkedin.com/in/dimitri-wulffert-a63355ba/" class="social-link">
+      <img class="filter-blue custom-img" src="assets/contacts/linkedin.svg" matTooltip="LinkedIn Profile">
+    </a>
+    <a href="https://www.xing.com/profile/Dimitri_Wulffert/cv" class="social-link">
+      <img class="filter-green custom-img" src="assets/contacts/xing.svg" matTooltip="Xing Profile">
+    </a>
+    <a href="https://github.com/DragonScarlet" class="social-link">
+      <img class="filter-purple custom-img" src="assets/contacts/github.svg" matTooltip="GitHub Profile">
+    </a>
+    <a href="https://hub.docker.com/u/dragonscarlet" class="social-link">
+      <img class="filter-dark-blue custom-img" src="assets/contacts/docker.svg" matTooltip="Docker Hub">
+    </a>
+    <a href="https://www.codewars.com/users/DragonScarlet" class="social-link">
+      <img class="filter-red custom-img" src="assets/contacts/codewars.svg" matTooltip="Codewars Profile">
+    </a>
+  </mat-card-actions>
 </mat-card>
