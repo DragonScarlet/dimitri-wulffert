@@ -103,4 +103,44 @@ export class ChipComponent implements OnInit {
     }
   }
 
+  getChipColor() {
+    // Return semi-transparent glass colors for CSS custom property (Catppuccin Macchiato)
+    switch(this.color) {
+      case 'green':
+        return 'rgba(166, 227, 161, 0.25)'; // Macchiato green with transparency
+      case 'blue':
+        return 'rgba(137, 180, 250, 0.25)'; // Macchiato blue with transparency
+      case 'red':
+        return 'rgba(243, 139, 168, 0.25)'; // Macchiato red with transparency
+      case 'purple':
+        return 'rgba(203, 166, 247, 0.25)'; // Macchiato mauve/purple with transparency
+      case 'yellow':
+        return 'rgba(249, 226, 175, 0.25)'; // Macchiato yellow with transparency
+      case 'orange':
+        return 'rgba(250, 179, 135, 0.25)'; // Macchiato peach/orange with transparency
+      default:
+        return 'rgba(110, 115, 141, 0.2)'; // Macchiato Overlay 0 as default
+    }
+  }
+
+  getColorClass() {
+    // Return the appropriate color class if color is provided, otherwise return empty string
+    switch(this.color) {
+      case 'green':
+        return 'green';
+      case 'blue':
+        return 'blue';
+      case 'red':
+        return 'red';
+      case 'purple':
+        return 'purple';
+      case 'yellow':
+        return 'yellow';
+      case 'orange':
+        return 'orange';
+      default:
+        return '';
+    }
+  }
+
 }
