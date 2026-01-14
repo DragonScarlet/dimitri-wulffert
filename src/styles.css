@@ -131,6 +131,33 @@ body {
   border-radius: 0 0 8px 8px !important;
 }
 
+/* Glass effect for Material buttons using Catppuccin Macchiato */
+.mat-mdc-button,
+.mat-mdc-outlined-button,
+.mat-mdc-raised-button,
+.mat-mdc-unelevated-button,
+.mat-mdc-fab,
+.mat-mdc-mini-fab {
+  backdrop-filter: blur(60px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 30px rgba(91, 96, 120, 0.08) !important;  /* Macchiato Surface 2 */
+  transition: all 0.3s ease !important;
+}
+
+/* Default glass effect for buttons without color */
+.mat-mdc-fab:not([color]),
+.mat-mdc-mini-fab:not([color]) {
+  background: rgba(73, 77, 100, 0.15) !important;  /* Macchiato Surface 1 */
+}
+
+/* Colored buttons - let Material handle the color, just add glass effect */
+.mat-mdc-fab[color],
+.mat-mdc-mini-fab[color] {
+  /* Remove this to let Material's color theming work */
+}
+
 /* Chip text colors using Macchiato theme */
 .mat-mdc-chip {
   color: #cad3f5 !important;  /* Macchiato Text */
