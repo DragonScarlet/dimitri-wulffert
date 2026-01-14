@@ -1,0 +1,327 @@
+https://lh3.googleusercontent.com/notebooklm/AG60hOoaHcFENt7baveLzdu3cLW5VWzy47fDln5P02JeuPzgiBNwbYbgqag5W5tzTJBoR05xE8tuy5aZfYUpA_BLD028bWpKP1kV4fzF-DkItzXHFcNzMsk2HYEIYJva_31qgsUrqscc=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOr9dWLiYZyKM1s9b3XST4Mcs98XAMcfRFqg5wW4dmDxRYgpI2JqzMDy_MygtTrihL8qPa4laKKd6VWIffUoGAtMeXilpltVltftvuO_v6cwD6LygaSKc73oEOtkgFtPtR4sOlaX5Q=w676-h378-v0
+Senior Technical Consultant
+DIMITRI WULFFERT
+Fullstack-Entwickler mit ganzheitlichem Projektfokus
+Seit über zehn Jahren bin ich in der Fullstack-Softwareentwicklung tätig und begleite Projekte mit Leidenschaft über den gesamten Lebenszyklus – von der Anforderungsaufnahme über die Umsetzung bis zur erfolgreichen Inbetriebnahme.Dabei lege ich besonderen Wert auf sauberen, gut lesbaren und wiederverwendbaren Code. Die enge, produktive Zusammenarbeit im Team ist für mich ein zentraler Erfolgsfaktor moderner Softwareentwicklung.
+bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOrdt9hSMP_aUkKT2Hf8aT7qMCXFiG_f79a61M3Vya95ltG5RIgQZLN8tjqKzQLedoRxAMY6W8p_Eh7C8xZGAxFZZQjeVVO3egRP7lKafolSEmJc-grFL2TbM28vLQfrXZRY10AO=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOqKiY43Fn6cnSNd84KWXti_Y0zTtMwVt9GieeUdCy5x9gNU5tqwlyySc6Nis8BY3zZjusvWYKTFdW3dYcrnS8oZWYslpLLsEDih6Xw-47jykUs2ZjDSpBwkElgxm17YMXufIzZOiA=w676-h378-v0
+Dimitri Wulffert 01/2026
+Dimitri Wulffert
+1987
+Computer Science (M.A.)
+PERSÖNLICHE ANGABEN
+Vorname, Nachname
+Geburtsjahr
+Akademischer Titel
+DeutschlandNationalität
+Senior Technical ConsultantFunktion
+ERFAHRUNGSSCHWERPUNKTE
+Funktionen Cloud, Fullstack Entwickler, IT Berater
+Prozesse & Methoden Kanban, Scrum, DevOps, Software Modernizierung, Clean Code, CI/CD, Refactoring, Pair Programing, Automatisiertes Testen, Testkonzeption, 3rd Level Support
+Tools & Technologien Java, Javascript, Typescript, Bash, Python, Lua Angular, HTML, CSS, JSF, Primefaces Spring Boot, Quarkus Kafka, Camel, JPA, Hibernate, SQL, MySql, MariaDB, S3 Maven, Git, Docker, Kubernetes, Openshift, Rancher JUnit, Mockito, Cucumber, TestContainers, ALM, UTF, ADITO REST, OpenApi, SOAP, WSDL, JSON, XML, YAML Jira, Confluence, Github, Github Actions, GitLab, Bitbucket, Jenkins, FluxCD IDEA Intellij, Eclipse, NeoVim Nexus, Sonarqube Windows, MacOs, Linux
+Branchen Automotive, Versicherung, Luftfahrt, Öffentliche Verwaltung
+PROFIL
+Bezeichnung Erfahrung letztmals angewendetProzesse & Methoden
+3rd Level Support CI/CD Clean Code Code Reviews DevOps Flyway Kanban Pair Programming Scrum Software Modernizierung Technische Aufgabenkoordination Testkonzeption
+3-6 Jahre 3-6 Jahre 3-6 Jahre 6-10 Jahre 1-3 Jahre < 1 Jahr 1-3 Jahre 6-10 Jahre 3-6 Jahre 1-3 Jahre 1-3 Jahre < 1 Jahr
+2024 2026 2022 2026 2026 2023 2020 2026 2025 2024 2022 2025
+Bezeichnung Erfahrung letztmals angewendetTools & Technologien
+ActiveMQ 1-3 Jahre 2024
+1/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOoja8RX57dzt9glkVaI_QZvWiukHWAqjoVF1PSmZlBHjXhSQohxN1J6SlZ9B_YHfKSbQ6StDV3gFV0-ENtsq3OKBXPSCFLpp-47BqzVwlfBqvP_9yzyvzW6Ah53xONZI1Zq9a2eWA=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOojz2qvGnIKS6AKy9U1xpV5FR5VR0iOyqvP4nGxLZ73xEfCYNEitnly6VbrAgOOO98JwbGfg4w9c7HepFEDaNOqs2wOspVv6vElliOhTH79f8ba0FpRzzXKN0Hc2jW2sWrSKKn6iA=w676-h378-v0
+Dimitri Wulffert 01/2026
+AKHQ ALM Angular AngularJS Apache Camel Apache TomCat AWS Bash Bitbucket BPMN Bruno Camunda CDI CI/CD Cloudflare Confluence CSS Cucumber Curl DB2 DBBeaver DNS Docker DynamoDB Eclipse EJB Elastic ElasticSearch FluxCD GIT GitHub Actions Github pages GitHub GitLab Grafana Hibernate HTML IntelliJ J2EE Java Javascript JBoss Jenkins Jira JMS JPA JSON JUnit Kafka Kubernetes MariaDb Maven Microservices Mockito MySQL NeoVim npm OpenApi Openshift OpenSUSE Oracle Postgres Primefaces Python Quarkus Rancher
+< 1 Jahr 1-3 Jahre 1-3 Jahre 1-3 Jahre 1-3 Jahre 3-6 Jahre < 1 Jahr 1-3 Jahre 1-3 Jahre 3-6 Jahre < 1 Jahr 3-6 Jahre 1-3 Jahre 6-10 Jahre < 1 Jahr 6-10 Jahre 1-3 Jahre 3-6 Jahre 1-3 Jahre 3-6 Jahre 1-3 Jahre < 1 Jahr 1-3 Jahre < 1 Jahr 3-6 Jahre 3-6 Jahre 1-3 Jahre 1-3 Jahre < 1 Jahr 3-6 Jahre 1-3 Jahre < 1 Jahr 1-3 Jahre 1-3 Jahre < 1 Jahr 3-6 Jahre 1-3 Jahre 1-3 Jahre 3-6 Jahre 6-10 Jahre 1-3 Jahre 3-6 Jahre 3-6 Jahre 6-10 Jahre 1-3 Jahre 3-6 Jahre 1-3 Jahre 6-10 Jahre 1-3 Jahre 1-3 Jahre < 1 Jahr 6-10 Jahre 1-3 Jahre 3-6 Jahre 1-3 Jahre 1-3 Jahre < 1 Jahr 1-3 Jahre 1-3 Jahre 1-3 Jahre 3-6 Jahre 3-6 Jahre 3-6 Jahre < 1 Jahr 1-3 Jahre 1-3 Jahre
+2025 2016 2024 2018 2024 2022 2025 2026 2022 2022 2025 2022 2020 2026 2025 2026 2025 2022 2026 2022 2022 2025 2026 2025 2022 2022 2024 2024 2025 2025 2026 2022 2026 2024 2025 2026 2025 2026 2022 2026 2025 2022 2025 2026 2024 2022 2022 2026 2025 2026 2025 2026 2026 2022 2024 2024 2025 2026 2024 2026 2022 2022 2022 2023 2026 2026
+2/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOrUR5oszUWxRJOoNNBoO3ks1fY9d_BUoWyw9uGBl3t7oNLRntM-3ekgeXZeoUNzupGWKzrjUReGmNhozolvW4cYkiETz5NS1etGUm3mcGpDyBVvOuRQbEahKEJ91ctwlwZKANw8Pg=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOpcPXZCnAgB7LAPBIvda0329ThkxrpwMoK1JsPJp1VwSmyN8sMtfcAsUvhd7pmgR_jDqJJWqg98LutGX-YRaEVZZeNfxM4JGV9x_R4tWtu7T406m_OeLOvEZ9QXw_JxqA3qfqoANw=w676-h378-v0
+Dimitri Wulffert 01/2026
+REST S3 Shell SOAP Sonarqube SourceTree Spring SpringBoot SQL SVN Swagger Terraform Test Automatisierung Testcontainers Typescript UFT UML Websphere Wildfly WSDL WSL XML xpath
+3-6 Jahre < 1 Jahr < 1 Jahr 1-3 Jahre 1-3 Jahre 1-3 Jahre 3-6 Jahre 3-6 Jahre 3-6 Jahre 3-6 Jahre 1-3 Jahre < 1 Jahr 3-6 Jahre < 1 Jahr < 1 Jahr 1-3 Jahre 3-6 Jahre 3-6 Jahre 3-6 Jahre 1-3 Jahre 1-3 Jahre 1-3 Jahre 1-3 Jahre
+2026 2025 2025 2020 2022 2022 2024 2025 2022 2022 2026 2025 2020 2025 2022 2016 2022 2022 2022 2022 2026 2022 2016
+BERUFLICHE TÄTIGKEIT
+10.2022 - heute bbv Software Services GmbH
+08.2025 - heute Kunde: Bundesagentur für Arbeit, Kunde Reaktion Management Funktion: Fullstack - Devops
+Projektbeschreibung
+Dieses Projekt umfasst die laufende Weiterentwicklung und Wartung einer Kundenreaktionsmanagement-Applikation, die in ADITO entwickelt wurde. Als Full-Stack-Entwickler liegt der Fokus auf der Implementierung neuer Funktionalitäten, der Behebung bestehender Fehler und der Optimierung der Codequalität sowie der Nutzererfahrung. Die Lösung basiert auf einer JavaScript Frontend-Anwendung (ADITO) und einem Java/Quarkus Backend.
+Aufgaben im Projekt:
+Frontend
+Implementierung neuer Features und Module in der ADITO JavaScript App (Frontend)•
+Wartung und Behebung von Bugs und Fehlfunktionen in der bestehenden Codebasis•
+Umsetzung von Quality-of-Life (QoL) Verbesserungen und technischen Optimierungen•
+Backend
+Sicherstellung der korrekten Kommunikation zwischen Frontend und Backend über definierte REST-Schnittstellen
+•
+Prozesse & Methoden
+DevOps, Pair Programming, Code Reviews, CI/CD
+Tools & Technologien
+Java, Bash, Maven, JUnit, GitHub Actions, CI/CD, IntelliJ, WSL, OpenSUSE, GitHub, Quarkus, Hibernate, Microservices, REST, OpenApi, Swagger, Curl, Docker, Kubernetes, Rancher, Jira, Confluence
+3/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOrvBjLIXC4g1ebjb-wce2fTGfFmUCz_cSAfhR8w_slVbsPBxBwQ_k2jOHoB-mtHNCnGyuQEffN_Qi52bEEGT9sfvvmFbz-cwxiJrEEoQtQ4QBW3oXsTGNaHTtw_LJzUqR0JsqYEig=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOqQZjocSJR64OWmCkvuEIcypRUa9GOyIvfdaVWAur34TONtp5zpkFZBrPUx4tWfO7uJ_X7G_emItrGqBK_OdNXyg3HUB5wk34UjhE5HabhKrGlE01yIYH0lh1vH6tyYosF6z_LvnA=w676-h378-v0
+Dimitri Wulffert 01/2026
+06.2025 - 08.2025 Kunde: bbv Software Service GmbH, ColdScarper Funktion: Fullstack
+Projektbeschreibung
+Im aktuellen Projekt bin ich aktiv an der Entwicklung eines Java-basierten Dienstes beteiligt, dessen Kernfunktion die Extraktion von Informationen aus verschiedenen Webseiten ist. Hierfür setzen wir sowohl Playwright für komplexe Scraping-Aufgaben als auch REST-Schnittstellen für direkten Datenabruf ein.
+Aufgaben im Projekt:
+Backend
+Aktive Entwicklung eines Java-basierten Dienstes zur Extraktion von Informationen aus verschiedenen Webseiten
+•
+Einsatz von Playwright für komplexe Scraping-Aufgaben und REST-Schnittstellen für den direkten Datenabruf
+•
+Sicherstellung des robusten Betriebs des Dienstes in der AWS-Cloud-Umgebung, unter Nutzung von DynamoDB zur Datenspeicherung
+•
+Enge Zusammenarbeit im Team zur Gewährleistung der reibungslosen Datenübergabe und -verarbeitung durch einen KI-Agenten sowie zur Qualitätssicherung der generierten E-Mails
+•
+Prozesse & Methoden
+Code Reviews
+Tools & Technologien
+Java, JUnit, CI/CD, IntelliJ, GitHub, Springboot, REST, Curl, Docker, Terraform, DynamoDB, AWS
+05.2025 - 06.2025 Kunde: Novatum, BarrierFree.Digital Funktion: Frontend
+Projektbeschreibung
+Dieses Projekt erforderte eine schnelle und flexible Unterstützung bei der Entwicklung eines Live-Frontends. Da die internen Entwickler des Kunden nicht verfügbar waren, wurde externe Hilfe benötigt, um das Projekt fristgerecht abzuschließen.
+Aufgaben im Projekt:
+Frontend
+Erstellung eines barrierefreien Frontends basierend auf bereitgestellten Bildern•
+Projektmanagement / Kommunikation
+Effektive Kommunikation mit dem Kunden zur fristgerechten Implementierung und Bereitstellung des Frontends
+•
+Prozesse & Methoden
+Code Reviews
+Tools & Technologien
+HTML, CSS, IntelliJ, Cloudflare, DNS, Javascript, Shell, npm, Git, GitHub
+09.2024 - 05.2025 Kunde: Bundesagentur für Arbeit, Register Modernisierung Funktion: Fullstack - Devops
+Projektbeschreibung
+Dieses Projekt erforderte die Unterstützung eines Senior Entwickler bei der aktuellen Entwicklung. Das Projekt hat gerade erst begonnen, und die Softwarelösung muss von Grund auf neu entwickelt werden.
+Aufgaben im Projekt:
+4/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOpxK9xpOSZUoBwaFbNppxk9yMldgMc2LgfQayHzyNw0Kok3MGoK4SdIaHztAKAIwJnqRKDncZSAZI3whi2q1Q2Mtrplsa0p1tfjGDE3eklgZ7lzGqePtq_sMULBAcd1dlLiIXG4MQ=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOqudZbPNafRQoBigrUHQN_6IR54JZYkjO6a7JLwv8OQxQ4DY8kevkAKCtaYubfipMvE9Y2FWgO0T7HMsHcEgpUMd68iSMbzMnhBU4xA1tiOwdQWVMUS04JaY0w2dSDJLYipjFz9Jg=w676-h378-v0
+Dimitri Wulffert 01/2026
+Backend / Microservices
+Entwicklung der Codebasis mit Java und Quarkus•
+Integration und Verarbeitung von Daten über REST-Schnittstellen und Kafka-Topics•
+Anbindung und Nutzung von MariaDB und S3-Storage zur Datenpersistierung•
+Definition und Umsetzung der Backend-Schnittstellen•
+Erstellung und Pflege eines lokalen Integrationstest-Setups mit Testcontainers und Docker-Images
+•
+Einsatz von Flux CD für die automatisierte Bereitstellung•
+Einsatz von GitHub und GitHub Actions zum Einrichten von Feature-Umgebungen für Testing und Entwicklung
+•
+DevOps
+Unterstützung bei DevOps-Aufgaben im Entwicklerteam•
+Einrichtung und Optimierung einer CI/CD-Pipeline mit GitHub Actions•
+Automatisierung von Build-, Test- und Reporting-Prozessen•
+Bereitstellung automatisierter Testberichte auf einer Confluence-Seite•
+Nutzung von AKHQ zur Überprüfung der Topic-Bereitstellung und des Nachrichtenempfangs sowie zur Erstellung von Mock-Nachrichten
+•
+Testing / QA
+Mitwirkung bei der Konzeption und Umsetzung von Qualitätssicherungsmaßnahmen•
+Realitätsnahe Integrationstests durch ein lokales Setup ohne externe Abhängigkeiten•
+Implementierung automatisierter Testprozesse im CI/CD-Kontext•
+Analyse und Dokumentation des Testkonzepts•
+Dokumentation / Tools / Analyse
+Analyse der Projektanforderungen zu Beginn der Softwareentwicklung•
+Dokumentation der für das Entwicklerteam relevanten Tools für WSL und Linux SUSE•
+Beteiligung an der initialen Architektur- und Konzeptionsphase•
+Erstellung und Dokumentation der technischen Anbindung von Services•
+Erstellung bzw. Anpassung von technischen Design-Dokumenten und des Entwicklerhandbuchs
+•
+Weiterentwicklung und Pflege der Entwicklungs- sowie Build- und Deploymentarchitektur für die Schnittstellen (DevOps)
+•
+Einbinden von SOA-Webservices •
+Prozesse & Methoden
+Scrum, DevOps, Pair Programming, Code Reviews, CI/CD, Testkonzeption
+Tools & Technologien
+Java, Bash, Maven, JUnit, Testcontainers, Jenkins, GitHub Actions, CI/CD, FluxCD, IntelliJ, WSL, OpenSUSE, GitHub, Quarkus, Hibernate, Microservices, REST, OpenApi, Swagger, Curl, Bruno, Docker, Kubernetes, Rancher, S3, MariaDb, Kafka, AKHQ, Grafana, Jira, Conflue
+02.2023 - 09.2024 Kunde: Miles & More, Microservices Migration und 3rd Level Support Funktion: Software Modernizierung - Fullstack - DevOps - 3rd Level Support
+Projektbeschreibung
+In diesem Projekt, welches auf einer Microservice-Architektur mit über 50 Microservices basierte, unterstützte ich als Fullstack-Entwickler ein Team von zwei Entwicklern bei der Migration von Openshift 3 (Kubernetes) auf Openshift 4.
+5/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOreHjHmoE7AFaFme_fVK4I522fHh8DfNNOe5nqBcZW1ENmUKiIqCpbjhRFCdV2u-G4Tn2qx7kLSOJd9il2r2nlziPg3qvcA1GdSg0bRfwkZK-lT13dxfYCxChUvRRYXTpoypIRLqw=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOpm5t2BWNcgofJwDWlgORuJD74MzcI7fvKb-cRraonC8r1rTrLn3L2ZNSV8zxFlUxBMW4KVC8InvHFC7NzPTNmKy9qsqAfJXVvWjiWXjeiaxpYcDqpJFkTxuvLVIeCGfeM3jm4F1w=w676-h378-v0
+Dimitri Wulffert 01/2026
+Aufgaben im Projekt:
+Frontend
+Behebung von Produktionsproblemen im Angular-basierten (Typescript) Frontend•
+Unterstützung bei der Verbesserung der Zusammenarbeit und Kommunikation mit dem Product Owner
+•
+Backend / Microservices
+Vorbereitung und Anpassung der Microservices für die Migration•
+Behebung von Produktionsproblemen im Java/Apache Camel/ActiveMQ-basierten Backend•
+Enge Zusammenarbeit mit anderen Entwicklern zur Optimierung von Code und Prozessen•
+Migration der Anwendung auf Openshift 4 inklusive Fehlerbehebung•
+DevOps
+.Anpassung der Docker-Container zur Sicherstellung der Pipeline-Kompatibilität•
+Konfiguration der Kubernetes Deployment-Files für die neuen Jenkins-Pipelines•
+Unterstützung der reibungslosen Migration durch technische Infrastrukturmaßnahmen•
+Erstellung von Tests mit Jest zur Absicherung eines automatisierten Skripts•
+Behebung von Frontend-Problemen im Zusammenhang mit der Timeout-Policy durch Anpassung der NGINX-Konfiguration
+•
+Erarbeitung einer Lösung zum erneuten Senden hängen gebliebener Nachrichten an das Kafka-Topic
+•
+Prozesse & Methoden
+Scrum, Software Modernizierung, DevOps, Pair Programming, Code Reviews, CI/CD, 3rd Level Support
+Tools & Technologien
+Java, Bash, JUnit, Maven, Jenkins, Git, GitLab, CI/CD, IntelliJ, NeoVim, Spring, SpringBoot, Hibernate, Apache Camel, JMS, Microservices, REST, Curl, Angular, Docker, Kubernetes, Openshift, ActiveMQ, Kafka, Elastic, ElasticSearch, MySQL, Jira, Confluence
+12.2022 - 02.2023 Kunde: Ernst Schweizer AG, Service Update Funktion: Backend
+Projektbeschreibung
+In diesem Projekt lag mein Fokus auf der Aktualisierung einer bestehenden Java-Anwendung, die in der AWS-Cloud betrieben wird. Die Herausforderung bestand darin, eine Reihe veralteter Abhängigkeiten zu aktualisieren, um die Stabilität und Sicherheit der Anwendung zu gewährleisten.
+Aufgaben im Projekt:
+Backend
+Aktualisierung einer bestehenden Java-Anwendung in der AWS-Cloud, mit Fokus auf veraltete Abhängigkeiten zur Sicherstellung von Stabilität und Sicherheit
+•
+Qualitätssicherung / Testing
+Überarbeitung und Anpassung bestehender Tests zur Sicherstellung der Kompatibilität mit den aktualisierten Abhängigkeiten für eine risikofreie Aktualisierung
+•
+Entwicklung von Skripten zur Bereinigung von Testdaten aus der Datenbank, um eine produktionsnahe Umgebung zu simulieren und die Testzuverlässigkeit signifikant zu verbessern
+•
+Prozesse & Methoden
+Software Modernizierung, Pair Programming, Code Reviews, CI/CD, Flyway
+6/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOp-0vDSBWisP8rsyzs7Nj9DLMxbFfbpzfJVt9P_EZ-e0PfR9KNTqjTVneLGng2BVaeXGTbZAWW4iPWrKWMd15huZZrGSy3RmsJs68W5wdyULV4qHwGPt-LS4WJUBIsffaTuNcHrxA=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOrNFy_6V0l-7F1XObIs_0YPFAf3_TX-JtGK81RTqJy6PN9pPtwMGQJaY0KZyKNh5Wc0PaHUmXddJ8nmWF40bRrPBhRPwLPQrzHKEEiGuNaM_rxSBc-iSw5bMiNmr7wQy_m-iyLoSQ=w676-h378-v0
+Dimitri Wulffert 01/2026
+Tools & Technologien
+Java, Python, JUnit, IntelliJ, SpringBoot, Hibernate, REST, AWS
+10.2022 - 12.2022 Kunde: bbv Software Service GmbH, CV Angular Webapp Funktion: Frontend
+Projektbeschreibung
+In diesem Projekt lag der Schwerpunkt auf der Erweiterung und Modernisierung meiner Frontend-Kenntnisse. Es war erforderlich, mein Wissen von der älteren Version AngularJS auf die neueste Angular-Version zu aktualisieren, wobei der Fokus auf der Implementierung mit TypeScript lag.
+Aufgaben im Projekt:
+Frontend
+Modernisierung der Frontend-Kenntnisse von AngularJS auf die neueste Angular-Version, mit Schwerpunkt auf TypeScript-Implementierung
+•
+Intensive Auseinandersetzung mit neuen Angular-Konzepten, Architektur und Best Practices (Komponenten, Services, Routing, reaktive Programmierung)
+•
+Praktische Umsetzung des erworbenen Wissens durch die Entwicklung einer Frontend-Seite zur übersichtlichen und ansprechenden Darstellung der aktuellen Berufserfahrung
+•
+Prozesse & Methoden
+Code Reviews, Clean Code
+Tools & Technologien
+Angular, Typescript, CI/CD, IntelliJ, GitHub, Github pages
+07.2020 - 09.2022 MSG Nexinsure
+07.2020 - 09.2022 Kunde: MSG Nexinsure, Provisions-Verwaltungs-Software Funktion: Frontend - Backend - Technische Aufgabenkoordination
+Projektbeschreibung
+Die MSG Nexinsure benötigte kurzfristig einen Komponenten-Architekten für das Entwicklungs-Provision-Team. Die Herausforderung bestand im Wiederaufbau von Wissen zur Komponenten -Architektur, welches durch Personalwechsel teilweise verloren gegangen war.
+Aufgaben im Projekt:
+Backend
+Unterstützung beim Wiederaufbau und der Pflege der Komponenten-Architektur•
+Förderung der Codequalität durch Einführung von Clean Coding-Praktiken•
+Beratung und Anleitung des Teams zu nachhaltiger, wartbarer Softwarearchitektur•
+Verantwortung für die vollständige Integration des neuen Services in die Camunda-Umgebung
+•
+Testing / QA
+Weiterentwicklung und Pflege der Testumgebungen für eine effizientere Ausführung automatisierter Tests
+•
+Einführung von Testing-Praktiken im Team (inkl. automatisierter Tests)•
+Wissensmanagement / Coaching
+Einarbeitung von Kollegen in Clean Coding, Pair Programming und Testing zur Sicherung des Wissenstransfers
+•
+Durchführung von Schulungen zu Clean Coding und GIT•
+Wiederaufbau verloren gegangenen Wissens im Team durch gezielte Maßnahmen und •
+7/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOpD1asArPFGRuvdqo53XO6oaEEeSuDFW38Vrm8QAPr6BtTODqtBQ3K2RwHCaV6ViP9KphS-jSBQQ6xHWmTKJTplAQLi5M73yPglro0jEhm6d7uyjTcctE2zlE-Ay-xNUN93hthIew=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOqu69nn5OsX8Mzt7InaVjf4m3_8frzyWkbbDOrGiSr4_S5aiK1ThadAWmn8VqeWZ8jsZUCweJ7VycTlLXRvbLfgxDrSah8nbNrY34UHJ1RIpkeDh6Q-Yva214a9k7TEi9KGJHOcdQ=w676-h378-v0
+Dimitri Wulffert 01/2026
+Unterstützung
+Prozesse & Methoden
+Scrum, Technische Aufgabenkoordination, Pair Programming, Clean Code, Code Reviews, CI/CD, 3rd Level Support
+Tools & Technologien
+Java, J2EE, EJB, Spring, SpringBoot, JPA, Primefaces, XML, JSON, CSS, SQL, Postgres, DB2, Oracle, Maven, Jenkins, CI/CD, JUnit, Mockito, Cucumber, WSDL, REST, GIT, SVN, Bitbucket, SourceTree, Jira, Confluence, Sonarqube, Eclipse, DBBeaver, JBoss, Apache TomCat, Wildfly, Websphere, Camunda, BPMN, UML
+10.2018 - 06.2020 Aequitas Software
+10.2018 - 06.2020 Kunde: MSG Nexinsure, Provisions-Verwaltungs-Webanwendung Funktion: Frontend und Backend Entwicklung
+Projektbeschreibung
+Die Provisions-Verwaltungs-Webanwendung der MSG Nexinsure hatte Leistungsprobleme mit Seiten, auf denen die Datenmenge größer als erwartet war und zu Verbindungsabbrüchen führte.
+Aufgaben im Projekt:
+Frontend
+Einführung von Lazy-Loading-Tabellen zur Verbesserung der Performance•
+Überarbeitung des bestehenden Frontend-Codes zur Optimierung der Ladezeiten•
+Deutliche Steigerung der Anwendungsperformance durch gezielte UI-Anpassungen•
+Verantwortung für die vollständige Integration des neuen Services in die Camunda-Umgebung
+•
+Backend
+Analyse und Behebung technischer Ursachen von Leistungsproblemen (bereichsübergreifend)
+•
+Refactoring von Backend-naher Logik zur Performance-Verbesserung •
+Prozesse & Methoden
+Kanban, Pair Programming, Clean Code, Code Reviews, CI/CD, 3rd Level Support
+Tools & Technologien
+Java, Primefaces, SVN, Eclipse, SOAP, Test Automatisierung, Mockito, Junit, Cucumber, JBoss, Apache TomCat, Wildfly, Websphere, JPA, Postgres, DB2, Oracle, Maven, Jenkins, Jira, Confluence, Spring, SpringBoot, J2EE, EJB, CDI, CI/CD, Camunda, BPMN, UML
+09.2015 - 09.2018 MVI Solve-IT
+02.2018 - 09.2018 Kunde: BMW, Webanwendung Funktion: Frontend Entwicklung
+Projektbeschreibung
+Eine unvollständige Fullstack-Webanwendung wurde von mir übernommen, um fehlende Funktionen zu entwickeln und das Projekt termingerecht abzuschließen. Durch regelmäßige Abstimmungen mit dem ursprünglichen Team wurden Fortschritte präsentiert und die nächsten Schritte geplant, wodurch das Projekt erfolgreich und zur Zufriedenheit des Kunden beendet werden konnte.
+Aufgaben im Projekt:
+Frontend / Backend
+Fertigstellung des JSF-Frontends•
+8/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOqCy-ppI64EaLVlH54pCghHpdvzRvpo_5lh3hy9zAWCAUQMp8Ul29u-ue7d8j4GgA0iq5sLl8FTpRn2iNS6tXQTTDKYpiLuiu-GBpJWc1vvK8MiBtOO0NUKv-KIeTsKJ2LpxzuVsQ=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOp3vAS9GEJo_7EkwrpEqnoASY_jXJaUU83-wLnTXC-0rmCxz-K-UD099durXzTWHT8cgAVe58Kwxoj_GKY3uEGbPXdk7IiBuhDTvCmL6BNQPyKeQs9Xi2cjyD-DrCRd9Fp4oixEBw=w676-h378-v0
+Dimitri Wulffert 01/2026
+Projektmanagement / Kommunikation
+Wöchentliche Meetings mit dem ursprünglichen Projektteam•
+Präsentation der Fortschritte und Planung der nächsten Schritte •
+Prozesse & Methoden
+Kanban, Clean Code, Code Reviews
+Tools & Technologien
+Java, J2EE, EJB, CDI, Spring, SpringBoot, Hibernate, JPA, Primefaces, Maven, Jenkins, CI/CD, JUnit, Test Automatisierung, Jira, Confluence
+06.2016 - 02.2018 Kunde: Volkswagen Porsche, Webanwendung Funktion: Frontend - Backend - Coaching
+Projektbeschreibung
+Die Webapplikation des Kunden wurde im Frontend an das Corporate Design angepasst, um die Marke zu stärken und die Nutzererfahrung zu verbessern. Durch enge Zusammenarbeit mit dem Kunden und dem Scrum-Team konnten Anforderungen flexibel umgesetzt und die Entwicklung kontinuierlich optimiert werden. Im Projektverlauf übernahm ich zunehmend Verantwortung und unterstützte das Team aktiv.
+Aufgaben im Projekt:
+Frontend
+Umsetzung und Integration des Corporate Designs•
+Übernahme der alleinigen Verantwortung für das Frontend der Webapplikation•
+Weitergabe von Frontend-Kenntnissen im Team•
+Projektmanagement / Kommunikation / Agile Methoden
+Transparente und lösungsorientierte Abstimmung mit dem Kunden•
+Optimierung der User-Stories nach jedem Sprint•
+Verbesserung der Kommunikation im Scrum-Team •
+Prozesse & Methoden
+Scrum, Clean Code, Pair Programming, Code Reviews
+Tools & Technologien
+Java, Javascript, HTML, SQL, J2EE, EJB, CDI, Spring, SpringBoot, Hibernate, JPA, AngularJS, Maven, Jenkins, CI/CD, JUnit, Test Automatisierung, Eclipse, Jira, Confluence
+09.2015 - 06.2016 Kunde: Volkswagen, Tester für WebPortal Funktion: Tester - Testautomatisierung
+Projektbeschreibung
+Für eine Webanwendung von VW übernahm ich das manuelle und automatisierte Testen japanischer Inhalte. Durch schnelle Einarbeitung in die eingesetzte Technologie konnte das Testvorhaben deutlich früher als geplant umgesetzt und die Qualität der Anwendung sichergestellt werden.
+Aufgaben im Projekt:
+Qualitätssicherung (Testing)
+Übernahme der Verantwortung für manuelles und automatisiertes Testen der Webanwendung
+•
+Testen speziell japanischer Inhalte•
+Meldung und Bearbeitung von Bugs•
+9/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
+https://lh3.googleusercontent.com/notebooklm/AG60hOqzbL3l0ObcmmGQlGXGFTfYn3uHK6v4AEsIZivyCuZh2nny5rhhmb2iCsz1jF5unsxh7gaLRSqaiP_Incnens-2KW-DrniHFDX6wV_-izC46mAa1O_PINJE_EdJmGoNw67RTEeR=w676-h378-v0
+https://lh3.googleusercontent.com/notebooklm/AG60hOpxPY6mm_dqWKDyNKSgogHHppwBj6uGAmfQpFUp6ACdIa8LyzI1Bi6aKAE02nqZIpOgaOkDe1YpuK3nGcojIvc6IlfnBm2r8aDBIFj9D21TRBNkqljXPDCQW1JXrm8E_UjpBk67vw=w676-h378-v0
+Dimitri Wulffert 01/2026
+Sprachen / Kommunikation
+Nutzung von Japanisch- und Deutschkenntnissen zur Unterstützung des Testprozesses •
+Prozesse & Methoden
+Kanban
+Tools & Technologien
+ALM, UFT, xpath, Test Automatisierung
+AUSBILDUNG
+09.2012 - 09.2013 Master Exchange Program
+Nagaoka University of Technology
+07.2011 - 03.2015 Master of Science Informatik
+Technische Universität Darmstadt
+09.2007 - 07.2011 Bachelor of Science Informatik
+Technische Universität Darmstadt
+KURSE
+10.2024 Starting with Quarkus, Udemy
+07.2024 Spring Boot 3, Spring 6 & Hibernate for Beginners, Udemy
+12.2022 Learn Apache Camel Framework with Spring Boot, Udemy
+11.2022 Docker & Kubernetes: The Practical Guide, Udemy, Udemy
+11.2022 Clean Code, Udemy
+11.2022 Angular - The Complete Guide, Udemy
+mündlich schriftlich
+SPRACHEN
+Spanisch Muttersprache Muttersprache
+Deutsch Fliessend sehr gut
+Englisch Fliessend sehr gut
+Japanisch Grundkenntnisse basis
+10/10bbv Software Services GmbH, Elsenheimerstr. 9, D-80687 München, Tel. +49 89 452 43 83-0, engineering@bbv.eu, www.bbv.eu
