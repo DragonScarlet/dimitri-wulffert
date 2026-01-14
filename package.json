@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:gh": "ng build --configuration=production --base-href=/dimitri-wulffert/",
+    "deploy": "npm run build:gh && npx angular-cli-ghpages --repo=https://github.com/DragonScarlet/ds-cv-nex.git --name=\"DragonScarlet\" --email=dragonscarlet@users.noreply.github.com --dir=dist/cv-nex2"
   },
   "private": true,
   "dependencies": {
