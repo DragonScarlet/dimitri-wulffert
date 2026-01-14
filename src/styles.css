@@ -22,7 +22,7 @@ body {
 /* Glass effect for all mat-expansion-panels using Catppuccin Macchiato */
 .mat-expansion-panel {
   background: rgba(110, 115, 141, 0.12) !important;  /* Macchiato Overlay 0 */
-  backdrop-filter: blur(6px) !important;
+  backdrop-filter: blur(60px) !important;
   -webkit-backdrop-filter: blur(6px) !important;
   border: none !important;
   border-radius: 8px !important;
@@ -31,7 +31,7 @@ body {
 
 .mat-expansion-panel-header {
   background: rgba(73, 77, 100, 0.15) !important;  /* Macchiato Surface 1 */
-  backdrop-filter: blur(6px) !important;
+  backdrop-filter: blur(60px) !important;
   -webkit-backdrop-filter: blur(6px) !important;
   border: none !important;
   border-radius: 8px 8px 0 0 !important;
@@ -49,7 +49,7 @@ body {
 
 .mat-expansion-panel-content {
   background: rgba(91, 96, 120, 0.08) !important;  /* Macchiato Surface 2 */
-  backdrop-filter: blur(6px) !important;
+  backdrop-filter: blur(60px) !important;
   -webkit-backdrop-filter: blur(6px) !important;
   border: none !important;
   border-radius: 0 0 8px 8px !important;
@@ -74,16 +74,16 @@ body {
 
 /* Glass effect for mat-chip components using Catppuccin Macchiato */
 .mat-mdc-chip {
-  backdrop-filter: blur(4px) !important;
-  -webkit-backdrop-filter: blur(4px) !important;
+  backdrop-filter: blur(60px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
   border-radius: 16px !important;
   box-shadow: 0 2px 10px rgba(54, 58, 79, 0.1) !important;  /* Macchiato Surface 0 */
 }
 
 .mat-mdc-chip:hover {
-  backdrop-filter: blur(4px) brightness(1.05) !important;
-  -webkit-backdrop-filter: blur(4px) brightness(1.05) !important;
+  backdrop-filter: blur(60px) brightness(1.05) !important;
+  -webkit-backdrop-filter: blur(6px) brightness(1.05) !important;
   border: 1px solid rgba(255, 255, 255, 0.15) !important;
   box-shadow: 0 4px 15px rgba(138, 173, 244, 0.12) !important;  /* Macchiato Blue accent */
 }

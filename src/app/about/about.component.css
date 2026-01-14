@@ -2,8 +2,8 @@
 /* Glassmorphism profile container */
 .profile-container {
   background: rgba(110, 115, 141, 0.12) !important;  /* Macchiato Overlay 0 */
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
+  backdrop-filter: blur(60px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
   border: none !important;
   border-radius: 12px !important;
   box-shadow: 0 4px 30px rgba(91, 96, 120, 0.08) !important;  /* Macchiato Surface 2 */
@@ -154,21 +154,21 @@
     text-align: center;
     gap: 1.5rem;
   }
-  
+
   .profile-left,
   .profile-right {
     flex: 1;
     width: 100%;
   }
-  
+
   .profile-right {
     margin-left: 0;
   }
-  
+
   .profile-name {
     font-size: 1.8rem;
   }
-  
+
   .contact-icons {
     justify-content: center;
   }
