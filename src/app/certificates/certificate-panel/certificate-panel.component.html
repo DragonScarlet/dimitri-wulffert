@@ -13,7 +13,7 @@
     </mat-panel-description>
   </mat-expansion-panel-header>
   <mat-action-row>
-    <button mat-button color="warn" (click)="navToCourse()">Udemy</button>
+    <button mat-button color="warn" (click)="navToCourse()">Source</button>
     <button *ngIf="this.certificate.linkCertificate == ''" mat-button color="primary" disabled>Certificate</button>
     <button *ngIf="!(this.certificate.linkCertificate =='')" mat-button color="primary" (click)="navToCertificate()">Certificate</button>
   </mat-action-row>

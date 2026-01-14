@@ -8,6 +8,12 @@ export class CertificatesService {
 
   certificates : Certificate[] = [
     new Certificate(
+      'Google',
+      'Professional Cloud Developer Certification',
+      'assets/companies/google.png',
+      'https://cloud.google.com/learn/certification/cloud-developer',
+      'https://www.credly.com/badges/f6c9ee3d-cdbe-4982-92d3-b37dae24a03b/linked_in_profile'),
+    new Certificate(
       'Docker',
       'Docker & Kubernetes: The Practical Guide',
       'assets/companies/docker.png',
@@ -37,12 +43,6 @@ export class CertificatesService {
       'assets/companies/camel.png',
       'https://www.udemy.com/course/apache-camel-framework-with-spring-boot/',
       'https://www.udemy.com/certificate/UC-cdbd757d-85a1-4f02-8dcd-577b3d630f56/'),
-    new Certificate(
-      'AWS',
-      '',
-      'assets/companies/aws.png',
-      'https://www.udemy.com/course/aws-cloud-practitioner-complete-aws-introduction/',
-      ''),
   ];
 
   constructor() { }
