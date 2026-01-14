@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
     standalone: false
 })
 export class AboutComponent implements OnInit {
+  isProfileHovered = false; // Track hover state for profile image swapping
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onProfileHover(hovering: boolean): void {
+    this.isProfileHovered = hovering;
   }
 
 }

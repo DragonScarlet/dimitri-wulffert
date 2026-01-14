@@ -80,7 +80,7 @@
   background: rgba(245, 189, 230, 0.15) !important;  /* Macchiato Pink accent */
 }
 
-/* Profile image with glass effect */
+/* Profile image with glass effect and hover swapping */
 .profile-image {
   width: 150px;
   height: 180px;
@@ -88,12 +88,17 @@
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(54, 58, 79, 0.2) !important;
   border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  background-image: url('/assets/contacts/Dimi4.jpg');
+  background-size: cover;
+  background-position: center;
   transition: all 0.3s ease;
 }
 
 .profile-image:hover {
-  box-shadow: 0 6px 25px rgba(138, 173, 244, 0.3) !important;  /* Macchiato Blue glow */
-  border: 2px solid rgba(138, 173, 244, 0.2) !important;
+  box-shadow: 0 6px 25px rgba(138, 173, 244, 0.4) !important;  /* Enhanced Macchiato Blue glow */
+  border: 2px solid rgba(138, 173, 244, 0.3) !important;
+  background-image: url('/assets/contacts/gojo.png');
+  transform: scale(1.02); /* Slight scale effect on hover */
 }
 
 /* Icon styling */

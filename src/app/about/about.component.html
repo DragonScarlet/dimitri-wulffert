@@ -30,8 +30,13 @@
     </div>
   </div>
   
-  <!-- Right side: Profile Picture -->
-  <div class="profile-right">
-    <img src="assets/contacts/Dimi4.jpg" class="profile-image" alt="Dimitri Wulffert">
+  <!-- Right side: Profile Picture with hover effect -->
+  <div class="profile-right" 
+       (mouseenter)="onProfileHover(true)"
+       (mouseleave)="onProfileHover(false)">
+    <img 
+      [src]="isProfileHovered ? 'assets/contacts/gojo.png' : 'assets/contacts/Dimi4.jpg'" 
+      [alt]="isProfileHovered ? 'Gojo profile picture' : 'Dimitri Wulffert'"
+      class="profile-image">
   </div>
 </div>
