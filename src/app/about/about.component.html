@@ -1,38 +1,37 @@
-<mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="profile-avatar">
-     <img src="assets/contacts/Dimi3.jpg" alt="Dimitri Wulffert">
-    </div>
-    <mat-card-title>Dimitri Wulffert</mat-card-title>
-    <mat-card-subtitle>Professional Consultant</mat-card-subtitle>
-  </mat-card-header>
-
-  <mat-card-content>
-    <div class="contact-info">
-      <a href="https://goo.gl/maps/eBPJC4QB1hdSPuYD6" class="contact-link">
-        <img class="filter-yellow custom-img" src="assets/contacts/location.svg" matTooltip="Located in Munich area">
+<div class="profile-container">
+  <!-- Left side: Name, Title, Contact Icons -->
+  <div class="profile-left">
+    <h1 class="profile-name">Dimitri Wulffert</h1>
+    <h2 class="profile-title">Professional Consultant</h2>
+    
+    <!-- Horizontal icon line below title -->
+    <div class="contact-icons">
+      <a href="mailto:dimknight@gmail.com?subject=Feedback&body=Message" class="contact-link" matTooltip="Send Email">
+        <img class="filter-red custom-img" src="assets/contacts/mail.svg" alt="Email">
       </a>
-      <a href="mailto:dimknight@gmail.com?subject=Feedback&body=Message" class="contact-link">
-        <img class="filter-red custom-img" src="assets/contacts/mail.svg" matTooltip="Send Email">
+      <a href="https://goo.gl/maps/eBPJC4QB1hdSPuYD6" class="contact-link" matTooltip="Located in Munich area">
+        <img class="filter-yellow custom-img" src="assets/contacts/location.svg" alt="Location">
+      </a>
+      <a href="https://www.linkedin.com/in/dimitri-wulffert-a63355ba/" class="contact-link" matTooltip="LinkedIn Profile">
+        <img class="filter-blue custom-img" src="assets/contacts/linkedin.svg" alt="LinkedIn">
+      </a>
+      <a href="https://www.xing.com/profile/Dimitri_Wulffert/cv" class="contact-link" matTooltip="Xing Profile">
+        <img class="filter-green custom-img" src="assets/contacts/xing.svg" alt="Xing">
+      </a>
+      <a href="https://github.com/DragonScarlet" class="contact-link" matTooltip="GitHub Profile">
+        <img class="filter-purple custom-img" src="assets/contacts/github.svg" alt="GitHub">
+      </a>
+      <a href="https://hub.docker.com/u/dragonscarlet" class="contact-link" matTooltip="Docker Hub">
+        <img class="filter-dark-blue custom-img" src="assets/contacts/docker.svg" alt="Docker">
+      </a>
+      <a href="https://www.codewars.com/users/DragonScarlet" class="contact-link" matTooltip="Codewars Profile">
+        <img class="filter-red custom-img" src="assets/contacts/codewars.svg" alt="Codewars">
       </a>
     </div>
-  </mat-card-content>
-
-  <mat-card-actions>
-    <a href="https://www.linkedin.com/in/dimitri-wulffert-a63355ba/" class="social-link">
-      <img class="filter-blue custom-img" src="assets/contacts/linkedin.svg" matTooltip="LinkedIn Profile">
-    </a>
-    <a href="https://www.xing.com/profile/Dimitri_Wulffert/cv" class="social-link">
-      <img class="filter-green custom-img" src="assets/contacts/xing.svg" matTooltip="Xing Profile">
-    </a>
-    <a href="https://github.com/DragonScarlet" class="social-link">
-      <img class="filter-purple custom-img" src="assets/contacts/github.svg" matTooltip="GitHub Profile">
-    </a>
-    <a href="https://hub.docker.com/u/dragonscarlet" class="social-link">
-      <img class="filter-dark-blue custom-img" src="assets/contacts/docker.svg" matTooltip="Docker Hub">
-    </a>
-    <a href="https://www.codewars.com/users/DragonScarlet" class="social-link">
-      <img class="filter-red custom-img" src="assets/contacts/codewars.svg" matTooltip="Codewars Profile">
-    </a>
-  </mat-card-actions>
-</mat-card>
+  </div>
+  
+  <!-- Right side: Profile Picture -->
+  <div class="profile-right">
+    <img src="assets/contacts/Dimi4.jpg" class="profile-image" alt="Dimitri Wulffert">
+  </div>
+</div>
