@@ -2,14 +2,14 @@ import {Injectable} from '@angular/core';
 import {Job} from "./job-panel/Job";
 import {Project} from "./job-panel/project-panel/Project";
 import {
-  AKHQ, ACTIVE_MQ, ALM, ANDROID, ANGULAR,
-  ANGULARJS, APACHE_TOMCAT,
+  AWS, AKHQ, ACTIVE_MQ, ALM, ANDROID, ANGULAR,
+  ANGULARJS, APACHE_TOMCAT, APACHE_CAMEL,
   BASH, BITBUCKET, BRUNO, BPMN2,
   CDI, CLOUDFLARE, CONFLUENCE, CPLUS, CSHARP, CSS, CUCUMBER, CURL, DB2, DBBEAVER, DNS, DOCKER, ECLIPSE, ELASTIC, ELASTICSEARCH, EJB, FLUXCD, GIT, GITHUB, GITHUB_ACTIONS, GITHUB_PAGES, GITLAB, GRAFANA, HIBERNATE,
-  HTML, INTELLIJ,
-  J2EE, JAVASCRIPT, JAVA,
-  JBOSS, JENKINS, JIRA, JMS, JPA, JSON, JQUERY,
-  JSF, JUNIT, KANBAN, KIBANA, KAFKA, KUBERNETES, MAVEN, MICROSERVICES, MOCKITO, MONGO, MARIADB, NEXUS, NPM, NEOVIM, OPENAPI, OPENSUSE, OPENSHIFT, ORACLE, POSTGRES,
+  HTML, INTELLIJ, S3, MYSQL, UNITY, GITKRAKEN,
+  J2EE, JAVASCRIPT, JAVA,WEBOCKET, CAMUNDA, BPMN, UML,
+  JBOSS, JENKINS, JIRA, JMS, JPA, JSON, JQUERY, SCRUM,
+  JSF, JUNIT, KANBAN, KIBANA, KAFKA, KUBERNETES, MAVEN, MICROSERVICES, MOCKITO, MONGO, MARIADB, NEXUS, NPM, NEOVIM, OPENAPI, OPENSUSE, OPENSHIFT, ORACLE, POSTGRES, SPRINGBOOT,
   PRIMEFACES, PYTHON, QUARKUS, RANCHER, REST, SCRUM2, SHELL, SOAP, SONARQUBE, SONARCUBE, SOURCETREE, SOURCETREE2, SPRING, SPRINGBOOT2, SQL, SVN, SWAGGER, TERRAFORM, TESTCONTAINERS, TYPESCRIPT, UFT, VB, WEBOCKET2, WILDFLY, WSL, WSDL, XML, YAML
 } from "../shared/skills.service";
 
@@ -34,7 +34,7 @@ export class ExperienceService {
           'Processes & Methods: DevOps, Pair Programming, Code Reviews, CI/CD.\n\n' +
           'Technologies: Java, Bash, Maven, JUnit, GitHub Actions, CI/CD, IntelliJ, WSL, OpenSUSE, GitHub, Quarkus, Hibernate, Microservices, REST, OpenApi, Swagger, Curl, Docker, Kubernetes, Rancher, Jira, Confluence.',
           [JAVA, BASH, MAVEN, JUNIT, GITHUB_ACTIONS, INTELLIJ, WSL, OPENSUSE, GITHUB, QUARKUS, HIBERNATE, MICROSERVICES, REST, OPENAPI, SWAGGER, CURL, DOCKER, KUBERNETES, RANCHER, JIRA, CONFLUENCE],
-          'assets/companies/bbv_Rakete.svg'
+          'assets/companies/agentur.gif'
         ),
         // ColdScarper project (Jun 2025 - Aug 2025)
         new Project(
@@ -92,7 +92,7 @@ new Job('Senior IT Consultant',
       '2020.07 - 2022.09',
       [
         new Project(
-          'Commission Management Software - Component Architect & Technical Task Coordination',
+          'Commission Management Software',
           26,
           'MSG Nexinsure needed a component architect for the development commission team at short notice due to knowledge loss from personnel changes. The challenge was to rebuild and maintain the component architecture, and to provide sustainable, maintainable software architecture guidance.\n\n' +
           'Backend: Supported rebuilding and maintenance of component architecture, promoted code quality through Clean Coding practices, consulted and guided the team in sustainable software architecture, ensured complete integration of new services into Camunda environment.\n\n' +
@@ -109,7 +109,7 @@ new Job('Senior IT Consultant',
       'assets/companies/aequitas2.png',
       '2018.10 - 2020.06',
       [
-        new Project('Commission Management Web Application - Frontend & Backend Development',
+        new Project('Commission Management Web Application',
           20,
           'MSG Nexinsure\'s commission management web application had performance issues with pages where the data volume was larger than expected and caused disconnections. Not only could I fix the performance issues by introducing lazy-loading tables, but also managed to refactor and clean the code. The application was also significantly faster than before.\n\n' +
           'Frontend: Introduced lazy-loading tables to improve performance, revised existing frontend code to optimize loading times, significantly improved application performance through targeted UI adjustments.\n\n' +
@@ -171,7 +171,7 @@ new Job('IT Consultant',
       '2022.10 - present',
       [
         new Project('DS CV NexGen - Self-Hosted CV Application',
-          this.getCurrentMonths(new Date(2022, 10)), 
+          this.getCurrentMonths(new Date(2022, 10)),
           'Developed a self-hosted CV application to test and showcase recently learned Angular skills. Modern, responsive single-page application with glassmorphism design, dynamic skill management, and professional presentation of work experience and education. Implemented with TypeScript, Angular, and MongoDB for data persistence.',
           [TYPESCRIPT, ANGULAR, INTELLIJ, GITKRAKEN, MONGO],
           'assets/companies/angular.png')

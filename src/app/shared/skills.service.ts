@@ -71,6 +71,7 @@ export const ALM = new Skill('ALM', 'cube', yellow, TOOL, 1);
 export const UNITY = new Skill('Unity', 'cube', purple, TOOL, 1);
 
 // New tools from German CV
+export const AWS = new Skill('AWS', 'cube', blue, TOOL, 1);
 export const AKHQ = new Skill('AKHQ', 'cube', blue, TOOL, 1);
 export const ACTIVE_MQ = new Skill('ActiveMQ', 'cube', blue, TOOL, 1);
 export const APACHE_TOMCAT = new Skill('Apache TomCat', 'cube', red, TOOL, 1);
@@ -109,6 +110,7 @@ export const SHELL = new Skill('Shell', 'cube', yellow, TOOL, 1);
 export const SOAP = new Skill('SOAP', 'cube', blue, TOOL, 1);
 export const SONARQUBE = new Skill('Sonarqube', 'cube', green, TOOL, 1);
 export const SOURCETREE2 = new Skill('SourceTree', 'jira', blue, TOOL, 1);
+export const SPRINGBOOT = new Skill('SpringBoot', 'leaf', blue, TOOL, 1);
 export const SWAGGER = new Skill('Swagger', 'cube', green, TOOL, 1);
 export const TERRAFORM = new Skill('Terraform', 'cube', purple, TOOL, 1);
 export const TESTCONTAINERS = new Skill('TestContainers', 'cube', purple, TOOL, 1);
@@ -137,6 +139,8 @@ export const NEOVIM = new Skill('NeoVim', 'jet', purple, TOOL, 1);
 export const BPMN2 = new Skill('BPMN', 'cube', blue, TOOL, 1);
 export const SCRUM2 = new Skill('Scrum', 'cube', purple, TOOL, 1);
 export const WEBOCKET2 = new Skill('Websphere', 'cube', blue, TOOL, 1);
+export const BPMN = new Skill('BPMN', 'cube', blue, TOOL, 1);
+export const APACHE_CAMEL = new Skill('ApacheCamel', 'cube', blue, TOOL, 1);
 
 @Injectable({
   providedIn: 'root'
