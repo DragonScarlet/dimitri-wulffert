@@ -8,6 +8,7 @@
       <img style="height: 30px" [src]="job.icon">
     </mat-panel-description>
   </mat-expansion-panel-header>
+  <br>
   <mat-accordion class="example-headers-align" multi>
     <app-project-panel *ngFor="let project of job.projects"
                        [project]="project"></app-project-panel>
