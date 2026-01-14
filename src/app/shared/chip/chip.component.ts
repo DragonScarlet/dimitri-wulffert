@@ -108,21 +108,31 @@ export class ChipComponent implements OnInit {
 
   getChipColor() {
     // Return semi-transparent glass colors for CSS custom property (Catppuccin Macchiato)
+    // If showRating is true, opacity is based on rating (0.2 to 0.6), otherwise normal (0.25)
+    let opacity;
+    if (this.showRating && this.rating !== undefined) {
+      // Map rating 0-3 to opacity 0.2-0.6
+      opacity = 0.2 + (this.rating * 0.15);
+    } else {
+      opacity = 0.25;
+    }
+    const defaultOpacity = this.showRating && this.rating !== undefined ? 0.15 + (this.rating * 0.125) : 0.2;
+    
     switch(this.color) {
       case 'green':
-        return 'rgba(166, 227, 161, 0.25)'; // Macchiato green with transparency
+        return `rgba(166, 227, 161, ${opacity})`; // Macchiato green
       case 'blue':
-        return 'rgba(137, 180, 250, 0.25)'; // Macchiato blue with transparency
+        return `rgba(137, 180, 250, ${opacity})`; // Macchiato blue
       case 'red':
-        return 'rgba(243, 139, 168, 0.25)'; // Macchiato red with transparency
+        return `rgba(243, 139, 168, ${opacity})`; // Macchiato red
       case 'purple':
-        return 'rgba(203, 166, 247, 0.25)'; // Macchiato mauve/purple with transparency
+        return `rgba(203, 166, 247, ${opacity})`; // Macchiato mauve/purple
       case 'yellow':
-        return 'rgba(249, 226, 175, 0.25)'; // Macchiato yellow with transparency
+        return `rgba(249, 226, 175, ${opacity})`; // Macchiato yellow
       case 'orange':
-        return 'rgba(250, 179, 135, 0.25)'; // Macchiato peach/orange with transparency
+        return `rgba(250, 179, 135, ${opacity})`; // Macchiato peach/orange
       default:
-        return 'rgba(110, 115, 141, 0.2)'; // Macchiato Overlay 0 as default
+        return `rgba(110, 115, 141, ${defaultOpacity})`; // Macchiato Overlay 0
     }
   }
 
