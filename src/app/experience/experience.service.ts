@@ -58,7 +58,7 @@ export class ExperienceService {
           8,
           'Support for senior developer in ongoing development. Software solution needs to be developed from scratch. Provided backend/microservices development with Java and Quarkus, data integration via REST interfaces and Kafka topics, connection to MariaDB and S3 storage, local integration testing with testcontainers, and DevOps support.',
           [JAVA, BASH, MAVEN, JUNIT, TESTCONTAINERS, GITHUB_ACTIONS, FLUXCD, INTELLIJ, WSL, OPENSUSE, GITHUB, QUARKUS, HIBERNATE, MICROSERVICES, REST, OPENAPI, SWAGGER, BRUNO, DOCKER, KUBERNETES, RANCHER, S3, MARIADB, KAFKA, AKHQ, GRAFANA, JIRA, CONFLUENCE],
-          'assets/companies/bbv_Rakete.svg'
+          'assets/companies/agentur.gif'
         ),
         // Microservices Migration project (Feb 2023 - Sep 2024)
         new Project(
@@ -66,7 +66,7 @@ export class ExperienceService {
           19,
           'Supported a team of two developers as Fullstack Developer in migrating from Openshift 3 (Kubernetes) to Openshift 4 in a microservice architecture with over 50 microservices. Fixed production issues in Angular (TypeScript) frontend, prepared and adapted microservices for migration, fixed production issues in Java/Apache Camel/ActiveMQ backend, and ensured smooth migration through technical infrastructure measures.',
           [JAVA, BASH, JUNIT, MAVEN, JENKINS, GIT, GITLAB, INTELLIJ, NEOVIM, SPRING, SPRINGBOOT, HIBERNATE, APACHE_CAMEL, JMS, MICROSERVICES, REST, CURL, ANGULAR, DOCKER, KUBERNETES, OPENSHIFT, ACTIVE_MQ, KAFKA, ELASTIC, ELASTICSEARCH, MYSQL, JIRA, CONFLUENCE],
-          'assets/companies/bbv_Rakete.svg'
+          'assets/companies/lh.svg'
         ),
         // Service Update project (Dec 2022 - Feb 2023)
         new Project(
@@ -165,7 +165,7 @@ new Job('IT Consultant',
           'assets/companies/nagaoka.png')
       ]
     ),
-    new Job('Freelancer',
+    new Job('Hobby',
       'My Projects',
       'assets/companies/artorias.png',
       '2022.10 - present',
