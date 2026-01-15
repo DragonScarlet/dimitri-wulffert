@@ -64,12 +64,11 @@ export const SOURCETREE = new Skill('SourceTree', 'jira', orange, API_TOOLS, 1);
 export const BITBUCKET = new Skill('BitBucket', 'jira', orange, API_TOOLS, 1);
 export const CONFLUENCE = new Skill('Confluence', 'jira', orange, API_TOOLS, 1);
 export const JIRA = new Skill('Jira', 'jira', orange, API_TOOLS, 1);
-export const INTELLIJ = new Skill('IntelliJ', 'jet', orange, API_TOOLS, 3);
-export const JENKINS = new Skill('Jenkins', 'jenkins', orange, API_TOOLS, 1);
-export const SONARCUBE = new Skill('SonarCube', 'cube', orange, API_TOOLS, 1);
-export const ECLIPSE = new Skill('Eclipse', 'cube', orange, API_TOOLS, 1);
-export const SVN = new Skill('SVN', 'cube', orange, API_TOOLS, 1);
-export const GIT = new Skill('GIT', 'cube', orange, API_TOOLS, 3);
+
+
+
+
+
 
 // Processes
 export const SCRUM = new Skill('Scrum', 'cube', black, PROCESSES, 1);
@@ -103,6 +102,13 @@ export const NPM = new Skill('npm', 'cube', yellow, GENERAL_TOOLS, 1);
 export const OPENSUSE = new Skill('OpenSUSE', 'cube', yellow, GENERAL_TOOLS, 1);
 export const SHELL = new Skill('Shell', 'cube', yellow, GENERAL_TOOLS, 1);
 export const WSL = new Skill('WSL', 'cube', yellow, GENERAL_TOOLS, 1);
+export const INTELLIJ = new Skill('IntelliJ', 'jet', yellow, GENERAL_TOOLS, 3);
+export const ECLIPSE = new Skill('Eclipse', 'cube', yellow, GENERAL_TOOLS, 1);
+export const JENKINS = new Skill('Jenkins', 'jenkins', yellow, GENERAL_TOOLS, 1);
+export const SVN = new Skill('SVN', 'cube', yellow, GENERAL_TOOLS, 1);
+export const GIT = new Skill('GIT', 'cube', yellow, GENERAL_TOOLS, 3);
+export const KIBANA = new Skill('Kibana', 'cube', yellow, GENERAL_TOOLS, 1);
+export const GRAFANA = new Skill('Grafana', 'cube', yellow, GENERAL_TOOLS, 1);
 
 // Cloud Services
 export const CLOUDFLARE = new Skill('Cloudflare', 'cube', blue, CLOUD_SERVICES, 1);
@@ -116,9 +122,7 @@ export const GITHUB = new Skill('GitHub', 'cube', orange, API_TOOLS, 3);
 export const GITHUB_ACTIONS = new Skill('GitHub Actions', 'cube', orange, API_TOOLS, 1);
 export const GITHUB_PAGES = new Skill('GitHub Pages', 'cube', orange, API_TOOLS, 1);
 export const GITLAB = new Skill('GitLab', 'cube', orange, API_TOOLS, 1);
-export const GRAFANA = new Skill('Grafana', 'cube', orange, API_TOOLS, 1);
-export const KIBANA = new Skill('Kibana', 'cube', orange, API_TOOLS, 1);
-export const SONARQUBE = new Skill('Sonarqube', 'cube', orange, API_TOOLS, 1);
+
 
 // Processes
 export const MICROSERVICES = new Skill('Microservices', 'cube', black, PROCESSES, 1);
@@ -133,6 +137,8 @@ export const JSON = new Skill('JSON', 'cube', black, PROCESSES, 1);
 
 // Testing Tools
 export const TESTCONTAINERS = new Skill('TestContainers', 'cube', purple, TESTING_TOOLS, 1);
+export const SONARCUBE = new Skill('SonarCube', 'cube', purple, TESTING_TOOLS, 1);
+export const SONARQUBE = new Skill('Sonarqube', 'cube', purple, TESTING_TOOLS, 1);
 
 // Additional missing technologies
 export const KAFKA = new Skill('Kafka', 'cube', green, FRAMEWORKS, 1);
