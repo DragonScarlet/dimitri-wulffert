@@ -58,28 +58,11 @@ This is a personal CV project and fun side project to:
 - **Smooth Animations**: Angular Material motion system
 - **Accessibility**: WCAG compliant components
 
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── shared/
-│   │   ├── skills.service.ts      # Skills management service
-│   │   ├── chip/                  # Reusable skill chip component
-│   │   └── skill.ts               # Skill model definitions
-│   ├── skills/                    # Skills display component
-│   ├── experience/                # Experience timeline component
-│   └── about/                     # About/personal info component
-├── assets/
-│   └── svgs/                      # Technology icons
-└── styles/                        # Global styles and themes
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js 18+
-- npm or yarn
+- npm
 - Angular CLI 18+
 
 ### Installation
@@ -107,14 +90,6 @@ src/
 
 ## 🏗️ Development
 
-### Available Scripts
-
-- `npm start` - Start development server
-- `npm run build` - Build for production
-- `npm run test` - Run unit tests
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
-
 ### Architecture Notes
 
 - **Component-Driven**: Modular component architecture
@@ -129,9 +104,6 @@ src/
 npm run build --prod
 npx angular-cli-ghpages --dir=dist/cv-nex2
 ```
-
-### Other Static Hosts
-Build the project and deploy the `dist/cv-nex2` folder to any static hosting service (Netlify, Vercel, etc.).
 
 ## 🤝 Contributing
 
