@@ -28,8 +28,24 @@ export class SkillsComponent implements OnInit {
     return this.skillService.getDataBases();
   }
 
-  tools() {
-    return this.skillService.getTools();
+  apiTools() {
+    return this.skillService.getApiTools();
+  }
+
+  cloudServices() {
+    return this.skillService.getCloudServices();
+  }
+
+  generalTools() {
+    return this.skillService.getGeneralTools();
+  }
+
+  testingTools() {
+    return this.skillService.getTestingTools();
+  }
+
+  processes() {
+    return this.skillService.getProcesses();
   }
 
   flipLevel() {
