@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import {Skill} from "../skill";
-import {DATA_BASE, FRAMEWORK, PROGRAMING_LANGUAGE, TOOL} from "../skills.service";
+import {DATABASES, FRAMEWORKS, PROGRAMMING_LANGUAGES, API_TOOLS} from "../skills.service";
 
 @Pipe({
     name: 'sort',
@@ -8,7 +8,7 @@ import {DATA_BASE, FRAMEWORK, PROGRAMING_LANGUAGE, TOOL} from "../skills.service
 })
 export class SortPipe implements PipeTransform {
 
-  skills = [PROGRAMING_LANGUAGE, FRAMEWORK, TOOL, DATA_BASE];
+  skills = [DATABASES, FRAMEWORKS, PROGRAMMING_LANGUAGES, API_TOOLS];
 
   transform(array: Array<Skill>): Array<Skill> {
     array.sort((a: any, b: any) => {
