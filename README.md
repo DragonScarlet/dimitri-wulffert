@@ -9,7 +9,7 @@ A modern, interactive CV built with Angular to showcase professional skills and 
 
 ## 🚀 Live Demo
 
-[View Live CV](https://dragonscarlet.github.io/ds-cv-nex/)
+[View Live CV](https://dimitriwulffert.github.io/cv-nex2/)
 
 ## 📖 About
 
@@ -67,21 +67,13 @@ This is a personal CV project and fun side project to:
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/DragonScarlet/ds-cv-nex.git
-   cd ds-cv-nex
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start development server**
+2. **Start development server**
    ```bash
-   npm start
-   # or
    ng serve
    ```
 
@@ -101,8 +93,7 @@ This is a personal CV project and fun side project to:
 
 ### GitHub Pages
 ```bash
-npm run build --prod
-npx angular-cli-ghpages --dir=dist/cv-nex2
+npm run deploy
 ```
 
 ## 🤝 Contributing
