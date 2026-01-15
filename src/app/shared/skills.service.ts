@@ -18,7 +18,7 @@ const yellow = 'yellow';
 const blue = 'blue';
 const green = 'green';
 const purple = 'purple';
-const orange = 'orange';
+const white = 'white';
 const black = 'black';
 
 // Programing Languages
@@ -59,11 +59,11 @@ export const MONGO = new Skill('Mongo', 'db', purple, DATABASES, 3);
 export const DB2 = new Skill('DB2', 'db', purple, DATABASES, 1);
 
 // API Tools
-export const GITKRAKEN = new Skill('GitKraken', 'gitkraken', orange, API_TOOLS, 3);
-export const SOURCETREE = new Skill('SourceTree', 'jira', orange, API_TOOLS, 1);
-export const BITBUCKET = new Skill('BitBucket', 'jira', orange, API_TOOLS, 1);
-export const CONFLUENCE = new Skill('Confluence', 'jira', orange, API_TOOLS, 1);
-export const JIRA = new Skill('Jira', 'jira', orange, API_TOOLS, 1);
+export const GITKRAKEN = new Skill('GitKraken', 'gitkraken', white, API_TOOLS, 3);
+export const SOURCETREE = new Skill('SourceTree', 'jira', white, API_TOOLS, 1);
+export const BITBUCKET = new Skill('BitBucket', 'jira', white, API_TOOLS, 1);
+export const CONFLUENCE = new Skill('Confluence', 'jira', yellow, GENERAL_TOOLS, 1);
+export const JIRA = new Skill('Jira', 'jira', yellow, GENERAL_TOOLS, 1);
 
 
 
@@ -86,10 +86,10 @@ export const ACTIVE_MQ = new Skill('ActiveMQ', 'cube', yellow, GENERAL_TOOLS, 1)
 export const APACHE_TOMCAT = new Skill('Apache TomCat', 'cube', yellow, GENERAL_TOOLS, 1);
 
 // General Tools
-export const BASH = new Skill('Bash', 'cube', yellow, GENERAL_TOOLS, 1);
-export const BRUNO = new Skill('Bruno', 'cube', yellow, GENERAL_TOOLS, 1);
+export const BASH = new Skill('Bash', 'cube', red, PROGRAMMING_LANGUAGES, 1);
+export const BRUNO = new Skill('Bruno', 'cube', white, API_TOOLS, 1);
 export const CAMUNDA = new Skill('Camunda', 'cube', yellow, GENERAL_TOOLS, 1);
-export const CURL = new Skill('Curl', 'cube', yellow, GENERAL_TOOLS, 1);
+export const CURL = new Skill('Curl', 'cube', white, API_TOOLS, 1);
 export const DBBEAVER = new Skill('DBBeaver', 'cube', yellow, GENERAL_TOOLS, 1);
 export const DNS = new Skill('DNS', 'cube', yellow, GENERAL_TOOLS, 1);
 export const DOCKER = new Skill('Docker', 'docker', yellow, GENERAL_TOOLS, 3);
@@ -100,13 +100,13 @@ export const MAVEN = new Skill('Maven', 'cube', yellow, GENERAL_TOOLS, 1);
 export const NEXUS = new Skill('Nexus', 'cube', yellow, GENERAL_TOOLS, 1);
 export const NPM = new Skill('npm', 'cube', yellow, GENERAL_TOOLS, 1);
 export const OPENSUSE = new Skill('OpenSUSE', 'cube', yellow, GENERAL_TOOLS, 1);
-export const SHELL = new Skill('Shell', 'cube', yellow, GENERAL_TOOLS, 1);
-export const WSL = new Skill('WSL', 'cube', yellow, GENERAL_TOOLS, 1);
+export const SHELL = new Skill('Shell', 'cube', red, PROGRAMMING_LANGUAGES, 1);
+export const WSL = new Skill('WSL', 'cube', white, API_TOOLS, 1);
 export const INTELLIJ = new Skill('IntelliJ', 'jet', yellow, GENERAL_TOOLS, 3);
 export const ECLIPSE = new Skill('Eclipse', 'cube', yellow, GENERAL_TOOLS, 1);
 export const JENKINS = new Skill('Jenkins', 'jenkins', yellow, GENERAL_TOOLS, 1);
-export const SVN = new Skill('SVN', 'cube', yellow, GENERAL_TOOLS, 1);
-export const GIT = new Skill('GIT', 'cube', yellow, GENERAL_TOOLS, 3);
+export const SVN = new Skill('SVN', 'cube', white, API_TOOLS, 1);
+export const GIT = new Skill('git', 'cube', white, API_TOOLS, 3);
 export const KIBANA = new Skill('Kibana', 'cube', yellow, GENERAL_TOOLS, 1);
 export const GRAFANA = new Skill('Grafana', 'cube', yellow, GENERAL_TOOLS, 1);
 
@@ -118,10 +118,10 @@ export const RANCHER = new Skill('Rancher', 'cube', blue, CLOUD_SERVICES, 1);
 export const TERRAFORM = new Skill('Terraform', 'cube', blue, CLOUD_SERVICES, 1);
 
 // API Tools
-export const GITHUB = new Skill('GitHub', 'cube', orange, API_TOOLS, 3);
-export const GITHUB_ACTIONS = new Skill('GitHub Actions', 'cube', orange, API_TOOLS, 1);
-export const GITHUB_PAGES = new Skill('GitHub Pages', 'cube', orange, API_TOOLS, 1);
-export const GITLAB = new Skill('GitLab', 'cube', orange, API_TOOLS, 1);
+export const GITHUB = new Skill('GitHub', 'cube', white, API_TOOLS, 3);
+export const GITHUB_ACTIONS = new Skill('GitHub Actions', 'cube', white, API_TOOLS, 1);
+export const GITHUB_PAGES = new Skill('GitHub Pages', 'cube', white, API_TOOLS, 1);
+export const GITLAB = new Skill('GitLab', 'cube', white, API_TOOLS, 1);
 
 
 // Processes
