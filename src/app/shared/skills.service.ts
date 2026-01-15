@@ -245,7 +245,7 @@ export class SkillsService {
     return this.databases;
   }
 
-  getTools() {
+  getApiTools() {
     return this.apiTools;
   }
 
