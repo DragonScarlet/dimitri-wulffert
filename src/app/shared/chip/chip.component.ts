@@ -131,6 +131,8 @@ export class ChipComponent implements OnInit {
         return `rgba(249, 226, 175, ${opacity})`; // Macchiato yellow
       case 'orange':
         return `rgba(250, 179, 135, ${opacity})`; // Macchiato peach/orange
+      case 'black':
+        return `rgba(69, 71, 90, ${opacity})`; // Macchiato Surface 0 (dark blue-gray)
       default:
         return `rgba(110, 115, 141, ${defaultOpacity})`; // Macchiato Overlay 0
     }
@@ -151,6 +153,8 @@ export class ChipComponent implements OnInit {
         return 'yellow';
       case 'orange':
         return 'orange';
+      case 'black':
+        return 'black';
       default:
         return '';
     }
