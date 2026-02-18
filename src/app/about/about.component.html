@@ -3,7 +3,7 @@
   <div class="profile-left">
     <h1 class="profile-name">Dimitri Wulffert</h1>
     <h2 class="profile-title">Professional Consultant</h2>
-    
+
     <!-- Horizontal icon line below title -->
     <div class="contact-icons">
       <a href="mailto:dimknight@gmail.com?subject=Feedback&body=Message" class="contact-link" matTooltip="Send Email">
@@ -27,15 +27,18 @@
       <a href="https://www.codewars.com/users/DragonScarlet" class="contact-link" matTooltip="Codewars Profile">
         <img class="filter-red custom-img" src="assets/contacts/codewars.svg" alt="Codewars">
       </a>
+      <a href="" class="contact-link" matTooltip="Download PDF">
+        <img class="filter-red custom-img" src="assets/contacts/download.svg" alt="Download">
+      </a>
     </div>
   </div>
-  
+
   <!-- Right side: Profile Picture with hover effect -->
-  <div class="profile-right" 
+  <div class="profile-right"
        (mouseenter)="onProfileHover(true)"
        (mouseleave)="onProfileHover(false)">
-    <img 
-      [src]="isProfileHovered ? 'assets/contacts/gojo.png' : 'assets/contacts/Dimi4.jpg'" 
+    <img
+      [src]="isProfileHovered ? 'assets/contacts/gojo.png' : 'assets/contacts/Dimi4.jpg'"
       [alt]="isProfileHovered ? 'Gojo profile picture' : 'Dimitri Wulffert'"
       class="profile-image">
   </div>
