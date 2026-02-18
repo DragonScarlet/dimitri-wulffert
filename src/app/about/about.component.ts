@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PdfService } from '../shared/pdf.service';
 
 @Component({
     selector: 'app-about',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
     standalone: false
 })
 export class AboutComponent implements OnInit {
-  isProfileHovered = false; // Track hover state for profile image swapping
+  isProfileHovered = false;
 
-  constructor() { }
+  constructor(private pdfService: PdfService) { }
 
   ngOnInit(): void {
   }
@@ -18,4 +19,7 @@ export class AboutComponent implements OnInit {
     this.isProfileHovered = hovering;
   }
 
+  downloadPdf(): void {
+    this.pdfService.generatePdf();
+  }
 }
