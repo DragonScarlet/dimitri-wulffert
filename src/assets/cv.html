@@ -1,293 +1,302 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - John Doe</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-        @page {
-            size: A4;
-            margin: 0;
-        }
+      @page {
+        size: A4;
+        margin: 0;
+      }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f0f0f0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-        }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f0f0f0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
 
-        .a4-page {
-            width: 210mm;
-            height: 297mm;
-            background: white;
-            display: flex;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
+      .a4-page {
+        width: 210mm;
+        height: 297mm;
+        background: white;
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
 
-        .left-column {
-            width: 30%;
-            background: #2c3e50;
-            color: white;
-            padding: 30px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+      .left-column {
+        width: 30%;
+        background: #2c3e50;
+        color: white;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-        .profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: #34495e;
-            margin-bottom: 25px;
-            overflow: hidden;
-        }
+      .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: #34495e;
+        margin-bottom: 25px;
+        overflow: hidden;
+      }
 
-        .profile-picture img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+      .profile-picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
-        .profile-name {
-            font-size: 24px;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 8px;
-        }
+      .profile-name {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 8px;
+      }
 
-        .profile-profession {
-            font-size: 14px;
-            color: #bdc3c7;
-            text-align: center;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+      .profile-profession {
+        font-size: 14px;
+        color: #bdc3c7;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
 
-        .left-section {
-            width: 100%;
-            margin-bottom: 25px;
-        }
+      .left-section {
+        width: 100%;
+        margin-bottom: 25px;
+      }
 
-        .left-section-title {
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #ecf0f1;
-            border-bottom: 1px solid #34495e;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-        }
+      .left-section-title {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #ecf0f1;
+        border-bottom: 1px solid #34495e;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+      }
 
-        .contact-item {
-            font-size: 12px;
-            margin-bottom: 10px;
-            color: #bdc3c7;
-        }
+      .contact-item {
+        font-size: 12px;
+        margin-bottom: 10px;
+        color: #bdc3c7;
+      }
 
-        .right-column {
-            width: 70%;
-            padding: 35px 30px;
-            display: flex;
-            flex-direction: column;
-        }
+      .right-column {
+        width: 70%;
+        padding: 35px 30px;
+        display: flex;
+        flex-direction: column;
+      }
 
-        .right-section {
-            margin-bottom: 25px;
-            overflow: hidden;
-        }
+      .right-section {
+        margin-bottom: 25px;
+        overflow: hidden;
+      }
 
-        .section-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-        }
+      .section-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2c3e50;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+      }
 
-        .section-content {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
+      .section-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
 
-        .job-item, .edu-item, .cert-item {
-            padding-bottom: 15px;
-            border-bottom: 1px solid #ecf0f1;
-        }
+      .job-item,
+      .edu-item,
+      .cert-item {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ecf0f1;
+      }
 
-        .job-item:last-child, .edu-item:last-child, .cert-item:last-child {
-            border-bottom: none;
-        }
+      .job-item:last-child,
+      .edu-item:last-child,
+      .cert-item:last-child {
+        border-bottom: none;
+      }
 
-        .item-title {
-            font-size: 14px;
-            font-weight: 600;
-            color: #2c3e50;
-        }
+      .item-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: #2c3e50;
+      }
 
-        .item-subtitle {
-            font-size: 12px;
-            color: #7f8c8d;
-            margin: 4px 0;
-        }
+      .item-subtitle {
+        font-size: 12px;
+        color: #7f8c8d;
+        margin: 4px 0;
+      }
 
-        .item-date {
-            font-size: 11px;
-            color: #95a5a6;
-            font-style: italic;
-        }
+      .item-date {
+        font-size: 11px;
+        color: #95a5a6;
+        font-style: italic;
+      }
 
-        .item-description {
-            font-size: 12px;
-            color: #555;
-            margin-top: 8px;
-            line-height: 1.5;
-        }
+      .item-description {
+        font-size: 12px;
+        color: #555;
+        margin-top: 8px;
+        line-height: 1.5;
+      }
 
-        .hobby-item {
-            display: inline-block;
-            background: #ecf0f1;
-            padding: 8px 15px;
-            margin: 5px;
-            border-radius: 4px;
-            font-size: 12px;
-            color: #2c3e50;
-        }
+      .hobby-item {
+        display: inline-block;
+        background: #ecf0f1;
+        padding: 8px 15px;
+        margin: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #2c3e50;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="a4-page">
-        <div class="left-column">
-            <div class="profile-picture">
-                <img src="https://via.placeholder.com/150" alt="Profile Picture">
-            </div>
-            <div class="profile-name">John Doe</div>
-            <div class="profile-profession">Software Engineer</div>
+      <div class="left-column">
+        <div class="profile-picture">
+          <img src="https://via.placeholder.com/150" alt="Profile Picture" />
+        </div>
+        <div class="profile-name">John Doe</div>
+        <div class="profile-profession">Software Engineer</div>
 
-            <div class="left-section">
-                <div class="left-section-title">Contact</div>
-                <div class="contact-item">📧 john.doe@email.com</div>
-                <div class="contact-item">📱 +1 234 567 890</div>
-                <div class="contact-item">📍 New York, USA</div>
-                <div class="contact-item">🔗 linkedin.com/in/johndoe</div>
-            </div>
-
-            <div class="left-section">
-                <div class="left-section-title">Skills</div>
-                <div class="contact-item">• JavaScript / TypeScript</div>
-                <div class="contact-item">• Angular / React</div>
-                <div class="contact-item">• Node.js</div>
-                <div class="contact-item">• Python</div>
-                <div class="contact-item">• SQL / NoSQL</div>
-                <div class="contact-item">• Git</div>
-            </div>
-
-            <div class="left-section">
-                <div class="left-section-title">Languages</div>
-                <div class="contact-item">English - Native</div>
-                <div class="contact-item">Spanish - Fluent</div>
-                <div class="contact-item">French - Basic</div>
-            </div>
+        <div class="left-section">
+          <div class="left-section-title">Contact</div>
+          <div class="contact-item">📧 john.doe@email.com</div>
+          <div class="contact-item">📱 +1 234 567 890</div>
+          <div class="contact-item">📍 New York, USA</div>
+          <div class="contact-item">🔗 linkedin.com/in/johndoe</div>
         </div>
 
-        <div class="right-column">
-            <div class="right-section">
-                <div class="section-title">Professional Summary</div>
-                <p class="item-description">
-                    Experienced Software Engineer with 5+ years of expertise in developing scalable web applications.
-                    Proficient in modern JavaScript frameworks and cloud technologies. Passionate about clean code
-                    and continuous learning.
-                </p>
-            </div>
-
-            <div class="right-section">
-                <div class="section-title">Work Experience</div>
-                <div class="section-content">
-                    <div class="job-item">
-                        <div class="item-title">Senior Software Engineer</div>
-                        <div class="item-subtitle">Tech Solutions Inc.</div>
-                        <div class="item-date">2022 - Present</div>
-                        <div class="item-description">
-                            Lead development of customer-facing web applications. Mentor junior developers.
-                            Implemented CI/CD pipelines reducing deployment time by 40%.
-                        </div>
-                    </div>
-                    <div class="job-item">
-                        <div class="item-title">Software Engineer</div>
-                        <div class="item-subtitle">StartupXYZ</div>
-                        <div class="item-date">2019 - 2022</div>
-                        <div class="item-description">
-                            Developed and maintained RESTful APIs. Collaborated with cross-functional teams
-                            to deliver features on time. Optimized database queries improving performance by 30%.
-                        </div>
-                    </div>
-                    <div class="job-item">
-                        <div class="item-title">Junior Developer</div>
-                        <div class="item-subtitle">WebAgency Co.</div>
-                        <div class="item-date">2017 - 2019</div>
-                        <div class="item-description">
-                            Built responsive websites using HTML, CSS, and JavaScript. Participated in
-                            code reviews and agile ceremonies.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="right-section">
-                <div class="section-title">Education</div>
-                <div class="section-content">
-                    <div class="edu-item">
-                        <div class="item-title">Bachelor of Science in Computer Science</div>
-                        <div class="item-subtitle">University of Technology</div>
-                        <div class="item-date">2013 - 2017</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="right-section">
-                <div class="section-title">Certificates</div>
-                <div class="section-content">
-                    <div class="cert-item">
-                        <div class="item-title">AWS Solutions Architect Associate</div>
-                        <div class="item-date">2023</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="item-title">Google Cloud Professional Developer</div>
-                        <div class="item-date">2022</div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="item-title">MongoDB Certified Developer</div>
-                        <div class="item-date">2021</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="right-section">
-                <div class="section-title">Hobbies & Interests</div>
-                <div>
-                    <span class="hobby-item">Photography</span>
-                    <span class="hobby-item">Hiking</span>
-                    <span class="hobby-item">Reading</span>
-                    <span class="hobby-item">Chess</span>
-                    <span class="hobby-item">Cooking</span>
-                </div>
-            </div>
+        <div class="left-section">
+          <div class="left-section-title">Skills</div>
+          <div class="contact-item">• JavaScript / TypeScript</div>
+          <div class="contact-item">• Angular / React</div>
+          <div class="contact-item">• Node.js</div>
+          <div class="contact-item">• Python</div>
+          <div class="contact-item">• SQL / NoSQL</div>
+          <div class="contact-item">• Git</div>
         </div>
+
+        <div class="left-section">
+          <div class="left-section-title">Languages</div>
+          <div class="contact-item">English - Native</div>
+          <div class="contact-item">Spanish - Fluent</div>
+          <div class="contact-item">French - Basic</div>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <div class="right-section">
+          <div class="section-title">Professional Summary</div>
+          <p class="item-description">
+            Experienced Software Engineer with 5+ years of expertise in
+            developing scalable web applications. Proficient in modern
+            JavaScript frameworks and cloud technologies. Passionate about clean
+            code and continuous learning.
+          </p>
+        </div>
+
+        <div class="right-section">
+          <div class="section-title">Work Experience</div>
+          <div class="section-content">
+            <div class="job-item">
+              <div class="item-title">Senior Software Engineer</div>
+              <div class="item-subtitle">Tech Solutions Inc.</div>
+              <div class="item-date">2022 - Present</div>
+              <div class="item-description">
+                Lead development of customer-facing web applications. Mentor
+                junior developers. Implemented CI/CD pipelines reducing
+                deployment time by 40%.
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="item-title">Software Engineer</div>
+              <div class="item-subtitle">StartupXYZ</div>
+              <div class="item-date">2019 - 2022</div>
+              <div class="item-description">
+                Developed and maintained RESTful APIs. Collaborated with
+                cross-functional teams to deliver features on time. Optimized
+                database queries improving performance by 30%.
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="item-title">Junior Developer</div>
+              <div class="item-subtitle">WebAgency Co.</div>
+              <div class="item-date">2017 - 2019</div>
+              <div class="item-description">
+                Built responsive websites using HTML, CSS, and JavaScript.
+                Participated in code reviews and agile ceremonies.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="section-title">Education</div>
+          <div class="section-content">
+            <div class="edu-item">
+              <div class="item-title">
+                Bachelor of Science in Computer Science
+              </div>
+              <div class="item-subtitle">University of Technology</div>
+              <div class="item-date">2013 - 2017</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="section-title">Certificates</div>
+          <div class="section-content">
+            <div class="cert-item">
+              <div class="item-title">AWS Solutions Architect Associate</div>
+              <div class="item-date">2023</div>
+            </div>
+            <div class="cert-item">
+              <div class="item-title">Google Cloud Professional Developer</div>
+              <div class="item-date">2022</div>
+            </div>
+            <div class="cert-item">
+              <div class="item-title">MongoDB Certified Developer</div>
+              <div class="item-date">2021</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="section-title">Hobbies & Interests</div>
+          <div>
+            <span class="hobby-item">Photography</span>
+            <span class="hobby-item">Hiking</span>
+            <span class="hobby-item">Reading</span>
+            <span class="hobby-item">Chess</span>
+            <span class="hobby-item">Cooking</span>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

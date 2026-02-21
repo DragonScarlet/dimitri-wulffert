@@ -38,6 +38,7 @@ import { SortPipe } from './shared/pipes/sort.pipe';
 import {MatBadgeModule} from "@angular/material/badge";
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {HttpClientModule} from "@angular/common/http";
+import { CvComponent } from './cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import {HttpClientModule} from "@angular/common/http";
     JobPanelComponent,
     ProjectPanelComponent,
     CertificatePanelComponent,
-    SortPipe
+    SortPipe,
+    CvComponent
   ],
     imports: [
         BrowserModule,
