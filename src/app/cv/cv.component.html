@@ -51,9 +51,8 @@
     <div class="right-section">
       <div class="section-title">Professional Summary</div>
       <p class="item-description">
-        As an experienced Senior Fullstack Developer with over a decade of hands-on experience, I am passionate about guiding projects through their entire lifecycle—from requirements analysis to cloud-native deployment.
-        I am convinced that the greatest value lies in clean, reusable code and close, productive teamwork. My expertise in architecting scalable cloud solutions and modern DevOps practices—including robust CI/CD pipelines and automated testing—helps ensure quality and increase efficiency.
-        With experience in industries such as automotive, insurance, and public administration, I bring a broad understanding of diverse business requirements. I always seek the best technical solution for a specific business problem.
+        As a Senior Fullstack Developer with 10+ years of experience, I specialize in the full project lifecycle—from analysis to cloud-native deployment. I prioritize clean, reusable code and collaborative teamwork to build scalable solutions.
+        By leveraging DevOps, CI/CD, and automated testing, I ensure high-quality, efficient delivery. With a background in the automotive, insurance, and public sectors, I am dedicated to finding the optimal technical solution for every business challenge.
       </p>
     </div>
 
@@ -99,6 +98,16 @@
               <div class="item-title">{{ cert.type }} - {{ cert.name }}</div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="section-title">Technologies</div>
+      <div class="hobbies-container">
+        <div class="hobby-item" *ngFor="let tech of technologies">
+          <span class="hobby-icon" [innerHTML]="tech.icon"></span>
+          <span class="hobby-name">{{ tech.name }}</span>
         </div>
       </div>
     </div>
