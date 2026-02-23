@@ -38,8 +38,11 @@
 
     <div class="left-section">
       <div class="left-section-title">Languages</div>
-      <div class="contact-item" *ngFor="let lang of languages">
-        {{ lang.name }} - {{ lang.level }}
+      <div class="skill-bar" *ngFor="let lang of languages">
+        <div class="skill-name">{{ lang.name }}</div>
+        <div class="skill-progress">
+          <div class="skill-fill" [style.width.%]="lang.level"></div>
+        </div>
       </div>
     </div>
   </div>

@@ -10,7 +10,7 @@ import { Skill } from '../shared/skill';
   selector: 'app-cv',
   templateUrl: './cv.component.html',
   styleUrls: ['./cv.component.css'],
-  standalone: false
+  standalone: false,
 })
 export class CvComponent implements OnInit {
   jobs: Job[] = [];
@@ -25,32 +25,31 @@ export class CvComponent implements OnInit {
   github = 'github.com/DragonScarlet';
 
   languages = [
-    { name: 'German', level: 'Native' },
-    { name: 'English', level: 'Fluent' },
-    { name: 'Japanese', level: 'Basic' }
+    { name: 'Spanish', level: 100 },
+    { name: 'German', level: 90 },
+    { name: 'English', level: 90 },
+    { name: 'Japanese', level: 40 },
   ];
 
-  hobbies = [
-    'Photography', 'Hiking', 'Gaming', 'Coding', 'Reading'
-  ];
+  hobbies = ['Photography', 'Hiking', 'Gaming', 'Coding', 'Reading'];
 
   constructor(
     private experienceService: ExperienceService,
     private skillsService: SkillsService,
-    private certificatesService: CertificatesService
+    private certificatesService: CertificatesService,
   ) {}
 
   ngOnInit(): void {
     this.jobs = this.experienceService.getJobs();
     this.certificates = this.certificatesService.certificates;
-    
+
     this.skillCategories = [
       { name: 'Backend', level: 95 },
       { name: 'Frontend', level: 80 },
       { name: 'DevOps', level: 85 },
       { name: 'Cloud', level: 75 },
       { name: 'Testing', level: 70 },
-      { name: 'Leadership', level: 80 }
+      { name: 'Leadership', level: 80 },
     ];
   }
 }
