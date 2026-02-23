@@ -192,18 +192,16 @@
 }
 
 .hobby-icon {
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
     margin-right: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: contain;
 }
 
-.hobby-icon svg {
-    width: 100%;
-    height: 100%;
-    color: #2c3e50;
+.tech-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
 
 .hobbies-container {

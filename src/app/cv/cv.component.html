@@ -106,7 +106,7 @@
       <div class="section-title">Technologies</div>
       <div class="hobbies-container">
         <div class="hobby-item" *ngFor="let tech of technologies">
-          <span class="hobby-icon" [innerHTML]="tech.icon"></span>
+          <mat-icon class="tech-icon" [svgIcon]="tech.iconName"></mat-icon>
           <span class="hobby-name">{{ tech.name }}</span>
         </div>
       </div>
