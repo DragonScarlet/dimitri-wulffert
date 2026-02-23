@@ -35,6 +35,7 @@ export class CvComponent implements OnInit {
 
   education = [
     { title: 'M.Sc. Computer Science', school: 'Technische Universität Darmstadt', date: '2013 - 2015', icon: 'assets/companies/tud.svg' },
+    { title: 'Exchange Program - Computer Science', school: 'Nagaoka University of Technology, Japan', date: '2012 - 2013', icon: 'assets/companies/nagaoka.png' },
     { title: 'B.Sc. Computer Science', school: 'Technische Universität Darmstadt', date: '2010 - 2013', icon: 'assets/companies/tud.svg' },
   ];
 
