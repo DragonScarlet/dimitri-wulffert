@@ -62,6 +62,7 @@
       <div class="section-content">
         <div class="job-item" *ngFor="let job of jobs">
           <div class="job-header">
+            <img [src]="job.icon" class="job-icon" [alt]="job.company">
             <div class="job-title-company">
               <div class="item-title">{{ job.name }}</div>
               <div class="item-subtitle">{{ job.company }}</div>

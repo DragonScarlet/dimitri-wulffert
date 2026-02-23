@@ -127,6 +127,13 @@
 
 .job-title-company {
     flex: 1;
+    margin-left: 10px;
+}
+
+.job-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
 }
 
 .item-title {
