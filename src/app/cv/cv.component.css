@@ -70,6 +70,15 @@
     margin-bottom: 6px;
     color: #bdc3c7;
     word-break: break-word;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-icon {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
 }
 
 .right-column {
@@ -162,4 +171,28 @@
     border-radius: 3px;
     font-size: 10px;
     color: #2c3e50;
+}
+
+.skill-bar {
+    margin-bottom: 12px;
+}
+
+.skill-name {
+    font-size: 11px;
+    color: #bdc3c7;
+    margin-bottom: 4px;
+}
+
+.skill-progress {
+    width: 100%;
+    height: 8px;
+    background: #34495e;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background: #3498db;
+    border-radius: 4px;
 }

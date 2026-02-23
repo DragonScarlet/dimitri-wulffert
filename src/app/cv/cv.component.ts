@@ -15,7 +15,7 @@ import { Skill } from '../shared/skill';
 export class CvComponent implements OnInit {
   jobs: Job[] = [];
   certificates: Certificate[] = [];
-  skills: { [key: string]: Skill[] } = {};
+  skillCategories: { name: string; level: number }[] = [];
   profileImage = 'https://via.placeholder.com/150';
   name = 'Dimitri Wulffert';
   profession = 'Senior Technical Consultant';
@@ -43,13 +43,14 @@ export class CvComponent implements OnInit {
   ngOnInit(): void {
     this.jobs = this.experienceService.getJobs();
     this.certificates = this.certificatesService.certificates;
-    this.skills = {
-      'Programming Languages': this.skillsService.getProgramingLanguages(),
-      'Frameworks': this.skillsService.getFrameworks(),
-      'Databases': this.skillsService.getDataBases(),
-      'Cloud Services': this.skillsService.getCloudServices(),
-      'Tools': this.skillsService.getGeneralTools(),
-      'Processes': this.skillsService.getProcesses()
-    };
+    
+    this.skillCategories = [
+      { name: 'Backend', level: 95 },
+      { name: 'Frontend', level: 80 },
+      { name: 'DevOps', level: 85 },
+      { name: 'Cloud', level: 75 },
+      { name: 'Testing', level: 70 },
+      { name: 'Leadership', level: 80 }
+    ];
   }
 }
