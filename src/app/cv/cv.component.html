@@ -105,8 +105,11 @@
 
     <div class="right-section">
       <div class="section-title">Hobbies & Interests</div>
-      <div>
-        <span class="hobby-item" *ngFor="let hobby of hobbies">{{ hobby }}</span>
+      <div class="hobbies-container">
+        <div class="hobby-item" *ngFor="let hobby of hobbies">
+          <span class="hobby-icon" [innerHTML]="hobby.icon"></span>
+          <span class="hobby-name">{{ hobby.name }}</span>
+        </div>
       </div>
     </div>
   </div>

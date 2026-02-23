@@ -181,13 +181,34 @@
 }
 
 .hobby-item {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background: #ecf0f1;
     padding: 5px 10px;
     margin: 3px;
     border-radius: 3px;
     font-size: 10px;
     color: #2c3e50;
+}
+
+.hobby-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby-icon svg {
+    width: 100%;
+    height: 100%;
+    color: #2c3e50;
+}
+
+.hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-bar {
