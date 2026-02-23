@@ -1,11 +1,15 @@
 <div #cvContent class="a4-page">
     <div class="left-column">
-        <div class="profile-picture">
-            <img [src]="profileImage" [alt]="name">
-        </div>
         <div class="profile-name">{{ name }}</div>
         <div class="profile-profession">{{ profession }}</div>
 
+                  <img src="https://via.placeholder.com/150" alt="Profile Picture" />
+
+        <div class="profile-picture">
+                  <img src="https://via.placeholder.com/150" alt="Profile Picture" />
+
+            <img [src]="profileImage" [alt]="name">
+        </div>
         <div class="left-section">
             <div class="left-section-title">Contact</div>
             <div class="contact-item">📧 {{ email }}</div>

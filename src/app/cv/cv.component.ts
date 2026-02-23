@@ -16,7 +16,7 @@ export class CvComponent implements OnInit {
   jobs: Job[] = [];
   certificates: Certificate[] = [];
   skills: { [key: string]: Skill[] } = {};
-  profileImage = 'assets/contacts/Dimi4.jpg';
+  profileImage = 'https://via.placeholder.com/150';
   name = 'Dimitri Wulffert';
   profession = 'Senior Technical Consultant';
   email = 'dimknight@gmail.com';

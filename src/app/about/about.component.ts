@@ -1,6 +1,5 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PdfService } from '../shared/pdf.service';
-import { CvComponent } from '../cv/cv.component';
 
 @Component({
     selector: 'app-about',
@@ -10,9 +9,6 @@ import { CvComponent } from '../cv/cv.component';
 })
 export class AboutComponent implements OnInit {
   isProfileHovered = false;
-
-  @ViewChild('cvContent') cvContent!: CvComponent;
-  @ViewChild('cvElement') cvElement!: ElementRef;
 
   constructor(private pdfService: PdfService) { }
 
@@ -24,9 +20,6 @@ export class AboutComponent implements OnInit {
   }
 
   downloadPdf(): void {
-    setTimeout(() => {
-      const element = this.cvElement.nativeElement.querySelector('.a4-page') as HTMLElement;
-      this.pdfService.generatePdfFromElement(element, 'Dimitri_Wulffert_CV.pdf');
-    }, 100);
+    this.pdfService.generatePdf();
   }
 }

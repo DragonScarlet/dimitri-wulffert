@@ -8,15 +8,24 @@ export class PdfService {
 
   constructor() { }
 
-  async generatePdfFromElement(element: HTMLElement, filename: string = 'CV.pdf'): Promise<void> {
+  async generatePdf(): Promise<void> {
+    const cvHtml = await fetch('assets/cv.html').then(res => res.text());
+    
+    const element = document.createElement('div');
+    element.innerHTML = cvHtml;
+    document.body.appendChild(element);
+
     const opt = {
       margin: 0,
-      filename: filename,
+      filename: 'Dimitri_Wulffert_CV.pdf',
       image: { type: 'jpeg' as const, quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true },
+      html2canvas: { scale: 2, useCORS: true, allowTaint: true, logging: false },
       jsPDF: { unit: 'mm' as const, format: 'a4' as const, orientation: 'portrait' as const }
     };
 
-    await html2pdf().set(opt).from(element).save();
+    const a4Page = element.querySelector('.a4-page') as HTMLElement;
+    await html2pdf().set(opt).from(a4Page).save();
+    
+    document.body.removeChild(element);
   }
 }
