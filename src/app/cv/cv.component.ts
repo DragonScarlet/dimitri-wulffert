@@ -40,7 +40,7 @@ export class CvComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.jobs = this.experienceService.getJobs();
+    this.jobs = this.experienceService.getJobs().slice(-4);
     this.certificates = this.certificatesService.certificates;
 
     this.skillCategories = [
