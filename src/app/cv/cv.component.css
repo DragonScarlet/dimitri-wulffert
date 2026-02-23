@@ -142,6 +142,12 @@
     color: #2c3e50;
 }
 
+.item-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .item-subtitle {
     font-size: 11px;
     color: #7f8c8d;

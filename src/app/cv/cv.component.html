@@ -63,10 +63,12 @@
           <div class="job-header">
             <img [src]="job.icon" class="job-icon" [alt]="job.company">
             <div class="job-title-company">
-              <div class="item-title">{{ job.name }}</div>
+              <div class="item-title-row">
+                <div class="item-title">{{ job.name }}</div>
+                <div class="item-date">{{ job.time }}</div>
+              </div>
               <div class="item-subtitle">{{ job.company }}</div>
             </div>
-            <div class="item-date">{{ job.time }}</div>
           </div>
         </div>
       </div>
@@ -79,10 +81,12 @@
           <div class="job-header">
             <img [src]="edu.icon" class="job-icon" [alt]="edu.school">
             <div class="job-title-company">
-              <div class="item-title">{{ edu.title }}</div>
+              <div class="item-title-row">
+                <div class="item-title">{{ edu.title }}</div>
+                <div class="item-date">{{ edu.date }}</div>
+              </div>
               <div class="item-subtitle">{{ edu.school }}</div>
             </div>
-            <div class="item-date">{{ edu.date }}</div>
           </div>
         </div>
       </div>
