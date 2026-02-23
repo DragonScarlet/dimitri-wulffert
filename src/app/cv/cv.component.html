@@ -76,22 +76,14 @@
     <div class="right-section">
       <div class="section-title">Education</div>
       <div class="section-content">
-        <div class="edu-item">
+        <div class="edu-item" *ngFor="let edu of education">
           <div class="job-header">
+            <img [src]="edu.icon" class="job-icon" [alt]="edu.school">
             <div class="job-title-company">
-              <div class="item-title">M.Sc. Computer Science</div>
-              <div class="item-subtitle">Technische Universität Darmstadt</div>
+              <div class="item-title">{{ edu.title }}</div>
+              <div class="item-subtitle">{{ edu.school }}</div>
             </div>
-            <div class="item-date">2013 - 2015</div>
-          </div>
-        </div>
-        <div class="edu-item">
-          <div class="job-header">
-            <div class="job-title-company">
-              <div class="item-title">B.Sc. Computer Science</div>
-              <div class="item-subtitle">Technische Universität Darmstadt</div>
-            </div>
-            <div class="item-date">2010 - 2013</div>
+            <div class="item-date">{{ edu.date }}</div>
           </div>
         </div>
       </div>
@@ -101,7 +93,12 @@
       <div class="section-title">Certificates</div>
       <div class="section-content">
         <div class="cert-item" *ngFor="let cert of certificates">
-          <div class="item-title">{{ cert.type }} - {{ cert.name }}</div>
+          <div class="job-header">
+            <img [src]="cert.icon" class="job-icon" [alt]="cert.type">
+            <div class="job-title-company">
+              <div class="item-title">{{ cert.type }} - {{ cert.name }}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

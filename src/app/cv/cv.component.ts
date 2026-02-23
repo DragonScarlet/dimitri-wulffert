@@ -33,6 +33,11 @@ export class CvComponent implements OnInit {
 
   hobbies = ['Photography', 'Hiking', 'Gaming', 'Coding', 'Reading'];
 
+  education = [
+    { title: 'M.Sc. Computer Science', school: 'Technische Universität Darmstadt', date: '2013 - 2015', icon: 'assets/companies/tud.svg' },
+    { title: 'B.Sc. Computer Science', school: 'Technische Universität Darmstadt', date: '2010 - 2013', icon: 'assets/companies/tud.svg' },
+  ];
+
   constructor(
     private experienceService: ExperienceService,
     private skillsService: SkillsService,
